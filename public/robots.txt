@@ -1,0 +1,13 @@
+# Nexova Tech Zone - robots.txt
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+Disallow: /_next
+Disallow: /.next
+
+# Sitemap location
+Sitemap: https:/ /nexova.tech/sitemap.xml
+
+# Crawl delay (be respectful)
+Crawl-delay: 1
