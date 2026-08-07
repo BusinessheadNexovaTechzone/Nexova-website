@@ -12,7 +12,7 @@ export default function ServicePageComponent() {
         { value: "<15 Min", label: "Incident Response" },
         { value: "ISO 27001", label: "Certified SOC" },
       ]}
-      heroImage="/assets/hero-monitor.jpg"
+      heroImage="/assets/images-13.jpeg"
       capabilitiesEyebrow="Capabilities & Intelligence"
       capabilitiesTitle="Holistic protection"
       capabilitiesRed="for the modern enterprise"

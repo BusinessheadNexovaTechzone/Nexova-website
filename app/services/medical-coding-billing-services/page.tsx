@@ -25,7 +25,7 @@ export default function MedicalCodingBillingServicesPage() {
         visual={
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-[var(--shadow-card)]">
             <img
-              src="/assets/workforce-outsourcing.png"
+              src="/assets/medical.avif"
               alt="Medical coding and billing services"
               loading="lazy"
               className="h-full w-full object-cover"

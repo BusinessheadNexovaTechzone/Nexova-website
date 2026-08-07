@@ -19,7 +19,7 @@ export default function AIAssistantsPage() {
         visual={
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-[var(--shadow-card)]">
             <img
-              src="/assets/ai-globe.jpg"
+              src="/assets/images-17.jpeg"
               alt="AI automation services"
               loading="lazy"
               className="h-full w-full object-cover"

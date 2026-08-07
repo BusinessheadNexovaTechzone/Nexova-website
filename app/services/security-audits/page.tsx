@@ -19,7 +19,7 @@ export default function SecurityAuditsPage() {
         visual={
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-[var(--shadow-card)]">
             <img
-              src="/assets/security-audits.png"
+              src="/assets/images-11.jpeg"
               alt="Cyber security services"
               loading="lazy"
               className="h-full w-full object-cover"
