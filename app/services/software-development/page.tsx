@@ -31,7 +31,7 @@ export default function CustomSoftwarePage() {
       <Section>
         <div className="mb-10 text-center">
           <h1 className="text-4xl font-black tracking-tight leading-none text-navy sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
-            Our Software Solutions
+            Our <span className="text-gradient-red">Software Solutions</span>
           </h1>
         </div>
         <SectionHeading
@@ -207,7 +207,11 @@ export default function CustomSoftwarePage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="CRM & ERP Software"
+          title={
+            <>
+              CRM & ERP <span className="text-gradient-red">Software</span>
+            </>
+          }
           description="Simplify business operations with smart business software. We provide customized CRM and ERP software solutions that integrate customers, employees, inventory, finance, and operations into one powerful platform."
           titleClassName="text-2xl font-extrabold tracking-tight leading-tight text-navy sm:text-3xl md:text-4xl lg:text-5xl"
         />
@@ -268,7 +272,11 @@ export default function CustomSoftwarePage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Why Businesses Trust Us"
+          title={
+            <>
+              Why Businesses <span className="text-gradient-red">Trust Us</span>
+            </>
+          }
           description="Experienced software developers, customized business solutions, agile methodology, scalable & secure applications, transparent communication, on-time delivery, and continuous support."
           titleClassName="text-2xl font-extrabold tracking-tight leading-tight text-navy sm:text-3xl md:text-4xl lg:text-5xl"
         />
@@ -291,7 +299,11 @@ export default function CustomSoftwarePage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Let's Build Your Next Software Solution"
+          title={
+            <>
+              Let's Build Your Next <span className="text-gradient-red">Software Solution</span>
+            </>
+          }
           description="Whether you're looking for a reliable Software Development Company to build a custom business application, enterprise software, mobile app, SaaS platform, CRM, ERP, or POS solution, Nexova TechZone has the expertise to bring your vision to life."
           titleClassName="text-2xl font-extrabold tracking-tight leading-tight text-navy sm:text-3xl md:text-4xl lg:text-5xl"
         />
