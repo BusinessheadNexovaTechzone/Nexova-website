@@ -21,16 +21,16 @@ const cols: {
   {
     title: "SERVICES",
     items: [
-      { label: "IT Infrastructure & Cloud", to: "/services/cloud-infrastructure" },
-      { label: "IT Staffing & Workforce", to: "/services/contract-it-staffing" },
-      { label: "Software Development", to: "/services/custom-software" },
-      { label: "Digital Services", to: "/services/website-development" },
-      { label: "AI & Automation ", to: "/services/ai-assistants" },
-       { label: "Cybersecurity", to: "/services/security-audits" },
+      { label: "IT Infrastructure & Cloud", to: "/services/IT-Infrastructure-services" },
+      { label: "IT Staffing & Workforce", to: "/services/IT-staffing-services" },
+      { label: "Software Development", to: "/services/software-development" },
+      { label: "Digital Services", to: "/services/Digital-marketing-services" },
+      { label: "AI & Automation ", to: "/services/AI-automation-services" },
+       { label: "Cybersecurity", to: "/services/cyber-security-services" },
      
      
      
-      { label: "BPO Services", to: "/services/bpo-services" },
+      { label: "BPO Services", to: "/services/business-process-outsourcing-services" },
       {
         label: "Medical Coding & Billing",
         to: "/services/medical-coding-billing-services",
