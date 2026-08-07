@@ -882,7 +882,7 @@ export default function CareersPage() {
             >
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Ready to Make an Impact?</h2>
               <p className="text-xl text-gray-300 mb-8">
-                Join Nexova Tech Zone and help build the future of technology.
+                Join Nexova TechZone and help build the future of technology.
               </p>
               <motion.button
                 whileHover={{ scale: 1.05 }}

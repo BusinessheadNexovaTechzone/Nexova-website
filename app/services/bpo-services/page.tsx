@@ -54,7 +54,8 @@ export default function BpoServicesPage() {
 
       <Section>
         <SectionHeading
-          title="Why Business Process Outsourcing Matters"
+          title="Why Business Process Outsourcing"
+          redPart="Matters"
           description="Managing business operations internally requires continuous investments in hiring, infrastructure, training, and technology. As organizations grow, maintaining operational efficiency becomes increasingly challenging."
         />
         <p className="mx-auto max-w-3xl text-center text-foreground/80">
@@ -63,15 +64,15 @@ export default function BpoServicesPage() {
       </Section>
 
       <Section id="our-services">
-        <SectionHeading title="Our BPO Services" />
+        <SectionHeading title="Our BPO" redPart="Services" />
 
         <div className="grid gap-8 lg:grid-cols-3">
           <div className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Customer Support Services</h3>
+            <h3 className="text-2xl font-semibold text-primary">Customer Support Services</h3>
             <p className="mt-4 text-foreground/90">
               Deliver exceptional customer experiences through professional BPO solutions.
             </p>
-            <ul className="mt-6 space-y-3 text-foreground/90 list-disc list-inside">
+            <ul className="mt-6 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Voice Support</li>
               <li>Email Support</li>
               <li>Live Chat Support</li>
@@ -82,11 +83,11 @@ export default function BpoServicesPage() {
           </div>
 
           <div className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Back Office Support</h3>
+            <h3 className="text-2xl font-semibold text-primary">Back Office Support</h3>
             <p className="mt-4 text-foreground/90">
               Improve operational efficiency with reliable support for core business processes.
             </p>
-            <ul className="mt-6 space-y-3 text-foreground/90 list-disc list-inside">
+            <ul className="mt-6 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Data Entry</li>
               <li>Data Processing</li>
               <li>Document Management</li>
@@ -98,7 +99,7 @@ export default function BpoServicesPage() {
           </div>
 
           <div className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Technical Support Services</h3>
+            <h3 className="text-2xl font-semibold text-primary">Technical Support Services</h3>
             <p className="mt-4 text-foreground/90">
               Our BPO Services provide dedicated technical support teams to deliver fast, reliable, and professional customer assistance.
             </p>
@@ -109,14 +110,14 @@ export default function BpoServicesPage() {
       <Section>
         <div className="grid gap-8 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Finance & Accounting Support</h3>
+            <h3 className="text-2xl font-semibold text-primary">Finance & Accounting Support</h3>
             <p className="mt-4 text-foreground/90">
               Reduce administrative workload through secure and efficient financial operations support.
             </p>
           </div>
 
           <div className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">HR Process Outsourcing</h3>
+            <h3 className="text-2xl font-semibold text-primary">HR Process Outsourcing</h3>
             <p className="mt-4 text-foreground/90">
               Enhance workforce management with scalable solutions for recruitment, onboarding, payroll support, and HR administration.
             </p>
@@ -126,12 +127,13 @@ export default function BpoServicesPage() {
 
       <Section>
         <SectionHeading
-          eyebrow="Data Services"
-          title="Data Management Services"
+          // eyebrow="Data Services"
+          title="Data Management"
+          redPart="Services"
           description="Our BPO Services include accurate data processing, verification, migration, cleansing, and CRM management to improve business efficiency."
         />
         <div className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-soft)]">
-          <ul className="space-y-3 text-foreground/90 list-disc list-inside">
+          <ul className="space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
             <li>Data processing and verification</li>
             <li>Data migration and cleansing</li>
             <li>CRM management and updates</li>
@@ -143,9 +145,9 @@ export default function BpoServicesPage() {
 
       <Section>
         <SectionHeading
-          title="Why Choose Our BPO Services?"
+          title="Why Choose Our BPO"
+          redPart="Services?"
           description="Our Business Process Outsourcing Services are designed for businesses that need dependable operational support without compromising quality or security."
-          centered={false}
         />
         <div className="grid gap-6 md:grid-cols-2">
           {[
@@ -165,9 +167,9 @@ export default function BpoServicesPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Transform Your Business with Reliable Business Process Outsourcing Services"
-          description="Partner with Nexova Tech Zone for scalable BPO Services and customized Business Process Outsourcing solutions that reduce costs, improve operational efficiency, and accelerate business growth."
-          centered={false}
+          title="Transform Your Business with Reliable Business Process Outsourcing"
+          redPart="Services"
+          description="Partner with Nexova TechZone for scalable BPO Services and customized Business Process Outsourcing solutions that reduce costs, improve operational efficiency, and accelerate business growth."
         />
       </Section>
 

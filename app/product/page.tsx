@@ -41,7 +41,7 @@ export default function ProductPage() {
             <h1 className="mt-3 text-4xl font-extrabold text-navy md:text-6xl">Meet <span className="text-gradient-red">Foodzo</span></h1>
             <h3 className="mt-4 text-xl font-semibold text-foreground/90 md:text-2xl">The Complete Food & Beverage SaaS Platform</h3>
             <p className="mt-6 max-w-2xl text-base leading-8 text-foreground/85">
-              Foodzo is Nexova Tech Zone's flagship Food & Beverage SaaS solution, designed to simplify and streamline restaurant operations. Built for scalability and performance, Foodzo empowers restaurants, cloud kitchens, cafés, and multi-location food businesses with an all-in-one platform to manage orders, operations, deliveries, and customer engagement.
+              Foodzo is Nexova TechZone's flagship Food & Beverage SaaS solution, designed to simplify and streamline restaurant operations. Built for scalability and performance, Foodzo empowers restaurants, cloud kitchens, cafés, and multi-location food businesses with an all-in-one platform to manage orders, operations, deliveries, and customer engagement.
             </p>
             <p className="mt-4 max-w-2xl text-base leading-8 text-foreground/85">
               From online ordering to rider management and POS integration, Foodzo helps businesses automate workflows, improve efficiency, and deliver exceptional customer experiences—all from a single, cloud-based platform.
@@ -55,39 +55,89 @@ export default function ProductPage() {
       </Section>
 
       <Section className="pt-10">
-        <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-          <div>
-            <h2 className="text-3xl font-bold text-navy">Key Features</h2>
-            <div className="mt-6 space-y-4">
-              {features.map((feature) => (
-                <div key={feature.title} className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-                  <div className="flex items-start gap-3">
-                    <CheckCircle2 className="mt-1 h-5 w-5 text-primary" />
-                    <div>
-                      <h3 className="text-lg font-semibold text-navy">{feature.title}</h3>
-                      <p className="mt-2 text-foreground/80">{feature.description}</p>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+  {/* Key Features */}
+  <div>
+    <h2 className="mb-8 text-3xl font-bold text-navy">
+      Key Features
+    </h2>
 
-          <div className="space-y-6 rounded-3xl border border-border bg-slate-50 p-8 shadow-[var(--shadow-soft)]">
-            <div>
-              <h2 className="text-3xl font-bold text-navy">Why Choose Foodzo?</h2>
-              <p className="mt-5 text-base leading-8 text-foreground/85">
-                Built with modern cloud technology, Foodzo is a secure, scalable, and feature-rich SaaS platform that helps food businesses automate operations, reduce manual effort, and accelerate growth. Whether you're managing a single restaurant or a large franchise network, Foodzo provides the tools you need to scale with confidence.
-              </p>
-            </div>
-            <div>
-              <p className="text-base leading-8 text-foreground/85">
-                Transform your food business with Foodzo—an intelligent SaaS platform built for the future of F&B operations.
-              </p>
+    <div className="grid gap-6 lg:grid-cols-2">
+      {/* Left Column */}
+      <div className="space-y-4">
+        {features.slice(0, 3).map((feature) => (
+          <div
+  key={feature.title}
+  className="flex min-h-[150px] rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+>
+  <div className="flex items-start gap-3">
+    <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-primary" />
+
+    <div className="flex flex-col">
+      <h3 className="text-lg font-semibold text-navy">
+        {feature.title}
+      </h3>
+
+      <p className="mt-2 text-foreground/80 leading-7">
+        {feature.description}
+      </p>
+    </div>
+  </div>
+</div>
+        ))}
+      </div>
+
+      {/* Right Column */}
+      <div className="space-y-4">
+        {features.slice(3, 6).map((feature) => (
+          <div
+            key={feature.title}
+            className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+          >
+            <div className="flex items-start gap-3">
+              <CheckCircle2 className="mt-1 h-5 w-5 text-primary" />
+              <div>
+                <h3 className="text-lg font-semibold text-navy">
+                  {feature.title}
+                </h3>
+                <p className="mt-2 text-foreground/80">
+                  {feature.description}
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </Section>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  {/* Why Choose Foodzo */}
+  <div className="mt-16 rounded-3xl border border-border bg-slate-50 p-10 shadow-[var(--shadow-soft)]">
+    <h2 className="text-3xl font-bold text-navy">
+      Why Choose Foodzo?
+    </h2>
+
+    <p className="mt-6 text-base leading-8 text-foreground/85">
+      Built with modern cloud technology, Foodzo is a secure,
+      scalable, and feature-rich SaaS platform that helps food
+      businesses automate operations, reduce manual effort, and
+      accelerate growth. Whether you're managing a single
+      restaurant or a large franchise network, Foodzo provides
+      the tools you need to scale with confidence.
+    </p>
+
+    <p className="mt-6 text-base leading-8 text-foreground/85">
+      From POS integration and intelligent rider dispatch to
+      loyalty programs, online ordering, and real-time analytics,
+      Foodzo empowers restaurants to deliver exceptional customer
+      experiences while maximizing operational efficiency.
+    </p>
+
+    <p className="mt-6 text-base leading-8 text-foreground/85">
+      Transform your food business with Foodzo—an intelligent SaaS
+      platform built for the future of F&B operations.
+    </p>
+  </div>
+</Section>
     </Layout>
   );
 }

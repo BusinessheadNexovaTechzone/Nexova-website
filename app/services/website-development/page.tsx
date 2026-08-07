@@ -15,7 +15,7 @@ export default function WebsiteDevelopmentPage() {
         eyebrow="Digital Marketing"
         title="Digital Marketing Services for"
         redPart="Business Growth"
-        description="Grow your business with Nexova Tech Zone, a trusted digital marketing services offering SEO, social media marketing, performance marketing, PPC, content marketing, and lead generation services."
+        description="Grow your business with Nexova TechZone, a trusted digital marketing services offering SEO, social media marketing, performance marketing, PPC, content marketing, and lead generation services."
         stats={[
           { value: "200+", label: "Campaigns Delivered" },
           { value: "120%", label: "Avg. Growth" },
@@ -42,7 +42,7 @@ export default function WebsiteDevelopmentPage() {
 
       <Section>
         <SectionHeading
-          eyebrow="Website Development"
+          // eyebrow="Website Development"
           title={
             <>
               Your Website <span className="text-gradient-red">is your Digital Storefront</span>
@@ -53,8 +53,8 @@ export default function WebsiteDevelopmentPage() {
         />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Our Website Development Services Include</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Our Website Development Services Include</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Custom Business Websites</li>
               <li>Corporate Websites</li>
               <li>E-commerce Development</li>
@@ -67,8 +67,8 @@ export default function WebsiteDevelopmentPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Why Choose Our Website Development?</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Why Choose Our Website Development?</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Modern UI Design</li>
               <li>Fast Loading Speed</li>
               <li>Mobile-Friendly Layout</li>
@@ -92,8 +92,8 @@ export default function WebsiteDevelopmentPage() {
         />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Our UI/UX Services</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Our UI/UX Services</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Website UI Design</li>
               <li>Mobile App UI Design</li>
               <li>Dashboard Design</li>
@@ -105,8 +105,8 @@ export default function WebsiteDevelopmentPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Benefits</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Benefits</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Better User Experience</li>
               <li>Higher Engagement</li>
               <li>Improved Conversion Rates</li>
@@ -129,8 +129,8 @@ export default function WebsiteDevelopmentPage() {
         />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Branding Services</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Branding Services</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Logo Design</li>
               <li>Brand Identity Design</li>
               <li>Brand Strategy</li>
@@ -142,8 +142,8 @@ export default function WebsiteDevelopmentPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Our Branding Process</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Our Branding Process</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Brand Discovery</li>
               <li>Market Research</li>
               <li>Visual Identity Creation</li>
@@ -166,8 +166,8 @@ export default function WebsiteDevelopmentPage() {
         />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Our SEO Services</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Our SEO Services</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>SEO Audit</li>
               <li>Keyword Research</li>
               <li>On-Page SEO</li>
@@ -180,8 +180,8 @@ export default function WebsiteDevelopmentPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Benefits</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Benefits</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Higher Google Rankings</li>
               <li>More Organic Traffic</li>
               <li>Better User Experience</li>
@@ -205,8 +205,8 @@ export default function WebsiteDevelopmentPage() {
         />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Our Performance Marketing Services</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Our Performance Marketing Services</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Google Ads</li>
               <li>Meta (Facebook & Instagram) Ads</li>
               <li>LinkedIn Advertising</li>
@@ -218,8 +218,8 @@ export default function WebsiteDevelopmentPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Why Performance Marketing?</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Why Performance Marketing?</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Immediate Traffic</li>
               <li>Qualified Leads</li>
               <li>Higher ROI</li>
@@ -243,8 +243,8 @@ export default function WebsiteDevelopmentPage() {
         />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Our Social Media Services</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Our Social Media Services</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Social Media Strategy</li>
               <li>Content Planning</li>
               <li>Graphic Design</li>
@@ -257,8 +257,8 @@ export default function WebsiteDevelopmentPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Platforms We Manage</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Platforms We Manage</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Facebook</li>
               <li>Instagram</li>
               <li>LinkedIn</li>
@@ -274,7 +274,7 @@ export default function WebsiteDevelopmentPage() {
         <SectionHeading
           title={
             <>
-              Why Choose <span className="text-gradient-red">Nexova Tech Zone?</span>
+              Why Choose <span className="text-gradient-red">Nexova TechZone?</span>
             </>
           }
           description="Experienced Digital Experts, customized business solutions, affordable pricing, transparent communication, SEO-driven approach, creative designs, timely delivery, dedicated support, and result-oriented marketing."
@@ -358,7 +358,7 @@ export default function WebsiteDevelopmentPage() {
       <Section className="pt-0">
         <CtaBanner
           title="Ready to Grow Your Business Online?"
-          description="Whether you need a professional website, better Google rankings, stronger branding, or high-performing digital marketing campaigns, Nexova Tech Zone is your trusted digital partner. Let's build your digital success together. Contact us today for a free consultation."
+          description="Whether you need a professional website, better Google rankings, stronger branding, or high-performing digital marketing campaigns, Nexova TechZone is your trusted digital partner. Let's build your digital success together. Contact us today for a free consultation."
           primary={{ label: "Get a Free Consultation", to: "/contact" }}
           secondary={{ label: "Start a Project", to: "/contact" }}
         />

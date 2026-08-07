@@ -142,8 +142,8 @@ export async function POST(request: NextRequest) {
             </div>
           </div>
           <div class="footer">
-            <p>This application was submitted through the Nexova Tech Zone Careers Portal.</p>
-            <p>© ${new Date().getFullYear()} Nexova Tech Zone. All rights reserved.</p>
+            <p>This application was submitted through the Nexova TechZone Careers Portal.</p>
+            <p>© ${new Date().getFullYear()} Nexova TechZone. All rights reserved.</p>
           </div>
         </div>
       </body>

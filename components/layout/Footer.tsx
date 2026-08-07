@@ -1,41 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import {
-  Facebook,
-  Instagram,
-  Linkedin,
-  Mail,
-  MapPin,
-  Phone,
-  Youtube,
-} from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { RiThreadsFill } from "react-icons/ri";
 import type { LucideIcon } from "lucide-react";
 import type { SVGProps } from "react";
 
 type FooterIcon = LucideIcon | React.ComponentType<SVGProps<SVGSVGElement>>;
 
-function ThreadsIcon(props: SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.8"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      {...props}
-    >
-      <circle cx="12" cy="12" r="9" />
-      <path d="M7.5 12.5c1.8-4 5.6-5 7.5-4 1.9 1 2.5 3.4 1.5 6-1 2.6-3.8 4.6-6.5 4.5-2.7-.1-4.8-2.3-4.5-5 .2-1.7 1.6-3.4 3.5-3.5 2.5-.2 4.5 1.6 4.5 3.5 0 1.9-1.8 3.5-3.5 3.5-1.7 0-3.5-1.4-3.5-3.5" />
-    </svg>
-  );
-}
-
 const cols: {
   title: string;
   items: Array<{
-    label: string;
+    label?: string;
     to?: string;
     href?: string;
     icon?: FooterIcon;
@@ -64,29 +41,29 @@ const cols: {
     title: "CONNECT",
     items: [
       {
-        label: "LinkedIn",
+        // label: "LinkedIn",
         href: "https://www.linkedin.com/company/nexovatechzone/",
-        icon: Linkedin,
+        icon: FaLinkedinIn,
       },
       {
-        label: "Threads",
+        // label: "Threads",
         href: "https://www.threads.com/@nexova_techzone",
-        icon: ThreadsIcon,
+        icon: RiThreadsFill,
       },
       {
-        label: "Facebook",
+        // label: "Facebook",
         href: "https://www.facebook.com/people/Nexova-TechZone/61590544350805/",
-        icon: Facebook,
+        icon: FaFacebookF,
       },
       {
-        label: "Instagram",
+        // label: "Instagram",
         href: "https://www.instagram.com/nexova_techzone/",
-        icon: Instagram,
+        icon: FaInstagram,
       },
       {
-        label: "YouTube",
+        // label: "YouTube",
         href: "https://www.youtube.com/@Nexovatechzone",
-        icon: Youtube,
+        icon: FaYoutube,
       },
     ],
   },
@@ -103,7 +80,7 @@ export function Footer() {
               alt="Nexova Tech Zone"
               className="h-10 w-auto"
             />
-            <p className="mt-5 max-w-sm text-sm leading-relaxed text-muted-foreground">
+            <p className="mt-5 max-w-sm text-base leading-relaxed text-muted-foreground">
               Empowering the world's most ambitious executives with high-impact
               software solutions and strategic technical oversight.
             </p>
@@ -116,25 +93,6 @@ export function Footer() {
               <ul className="mt-5 space-y-3">
                 {c.items.map((it) => {
                   const Icon = it.icon;
-                  // Detect social icons and render brand logos instead of Lucide icons
-                  const isSocial =
-                    Icon === Linkedin ||
-                    Icon === Facebook ||
-                    Icon === Instagram ||
-                    Icon === Youtube ||
-                    Icon === ThreadsIcon;
-
-                  const socialFile = Icon === Linkedin
-                    ? "linkedin.svg"
-                    : Icon === Facebook
-                    ? "facebook.svg"
-                    : Icon === Instagram
-                    ? "instagram.svg"
-                    : Icon === Youtube
-                    ? "youtube.svg"
-                    : Icon === ThreadsIcon
-                    ? "threads.svg"
-                    : null;
 
                   return (
                     <li key={it.label}>
@@ -144,19 +102,24 @@ export function Footer() {
                           href={it.href}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="inline-flex items-center gap-3 group"
+                          className={Icon ? "inline-flex items-center gap-3 group" : "group"}
                         >
-                          {isSocial && socialFile ? (
-                            <span className="flex items-center justify-center h-12 w-12 rounded-xl bg-white/5 border border-border p-2 shadow-sm transition-all duration-500 group-hover:-translate-y-2 group-hover:scale-110 group-hover:shadow-2xl group-hover:border-primary ease-out">
-                              <img
-                                src={`/assets/social/${socialFile}`}
-                                alt={it.label}
-                                className="h-6 w-6 transition-transform duration-500 group-hover:scale-110"
-                              />
+                          {Icon && (
+                            <span
+                              className="
+                                flex h-12 w-12 items-center justify-center
+                                rounded-xl border border-border
+                                bg-card shadow-sm
+                                transition-all duration-500
+                                group-hover:-translate-y-2
+                                group-hover:scale-110
+                                group-hover:border-primary
+                                group-hover:shadow-xl
+                              "
+                            >
+                              <Icon className="h-5 w-5 text-primary transition-transform duration-300 group-hover:rotate-6" />
                             </span>
-                          ) : Icon ? (
-                            <Icon className="h-4 w-4 text-primary" />
-                          ) : null}
+                          )}
 
                           <span className="text-sm font-medium text-foreground/85 transition-transform duration-300 group-hover:translate-x-1">
                             {it.label}
@@ -166,19 +129,24 @@ export function Footer() {
                         // Internal link
                         <Link
                           href={it.to!}
-                          className="inline-flex items-center gap-3 group"
+                          className={Icon ? "inline-flex items-center gap-3 group" : "group"}
                         >
-                          {isSocial && socialFile ? (
-                            <span className="flex items-center justify-center h-12 w-12 rounded-xl bg-white/5 border border-border p-2 shadow-sm transition-all duration-500 group-hover:-translate-y-2 group-hover:scale-110 group-hover:shadow-2xl group-hover:border-primary ease-out">
-                              <img
-                                src={`/assets/social/${socialFile}`}
-                                alt={it.label}
-                                className="h-6 w-6 transition-transform duration-500 group-hover:scale-110"
-                              />
+                          {Icon && (
+                            <span
+                              className="
+                                flex h-12 w-12 items-center justify-center
+                                rounded-xl border border-border
+                                bg-card shadow-sm
+                                transition-all duration-500
+                                group-hover:-translate-y-2
+                                group-hover:scale-110
+                                group-hover:border-primary
+                                group-hover:shadow-xl
+                              "
+                            >
+                              <Icon className="h-5 w-5 text-primary transition-transform duration-300 group-hover:rotate-6" />
                             </span>
-                          ) : Icon ? (
-                            <Icon className="h-4 w-4 text-primary" />
-                          ) : null}
+                          )}
 
                           <span className="text-sm font-medium text-foreground/85 transition-transform duration-300 group-hover:translate-x-1">
                             {it.label}
@@ -218,7 +186,7 @@ export function Footer() {
               </div>
             </div>
             <p>
-              © {new Date().getFullYear()} NEXOVA TECH ZONE. ALL RIGHTS
+              © {new Date().getFullYear()} NEXOVA TECHZONE. ALL RIGHTS
               RESERVED.
             </p>
             <div className="flex gap-6 pt-3 sm:pt-0">

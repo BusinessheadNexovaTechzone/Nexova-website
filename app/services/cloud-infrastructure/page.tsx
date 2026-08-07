@@ -17,7 +17,7 @@ export default function CloudInfrastructurePage() {
         eyebrow="Cloud Infrastructure"
         title="Build a Future-Ready"
         redPart="IT Infrastructure"
-        description="Your business depends on a reliable IT infrastructure to operate efficiently and stay competitive. At Nexova Tech Zone, we provide end-to-end IT Infrastructure & Cloud Solutions that help organizations modernize their technology, improve security, reduce operational costs, and support business growth."
+        description="Your business depends on a reliable IT infrastructure to operate efficiently and stay competitive. At Nexova TechZone, we provide end-to-end IT Infrastructure & Cloud Solutions that help organizations modernize their technology, improve security, reduce operational costs, and support business growth."
         stats={[
           { value: "200+", label: "Cloud Deployments" },
           { value: "40%", label: "Cost Reduction" },
@@ -51,7 +51,7 @@ export default function CloudInfrastructurePage() {
             transition={{ duration: 0.65, ease: "easeOut" }}
             className="group flex flex-col rounded-3xl border border-primary/20 bg-card/80 backdrop-blur-xl p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
           >
-            <h3 className="text-2xl font-semibold text-navy">Our Cloud Infrastructure Services</h3>
+            <h3 className="text-2xl font-semibold text-primary">Our Cloud Infrastructure Services</h3>
             <ul className="mt-5 grid gap-3">
               <li className="flex items-start gap-3 rounded-3xl bg-white/5 p-4 transition-all duration-300 hover:bg-primary/10">
                 <CheckCircle2 className="mt-1 h-4 w-4 text-primary" />
@@ -95,7 +95,7 @@ export default function CloudInfrastructurePage() {
             transition={{ duration: 0.65, ease: "easeOut" }}
             className="group flex flex-col rounded-3xl border border-primary/20 bg-card/80 backdrop-blur-xl p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
           >
-            <h3 className="text-2xl font-semibold text-navy">Benefits</h3>
+            <h3 className="text-2xl font-semibold text-primary">Benefits</h3>
             <ul className="mt-5 grid gap-3">
               <li className="flex items-start gap-3 rounded-3xl bg-white/5 p-4 transition-all duration-300 hover:bg-primary/10">
                 <CheckCircle2 className="mt-1 h-4 w-4 text-primary" />
@@ -133,7 +133,9 @@ export default function CloudInfrastructurePage() {
           description="Moving to the cloud doesn't have to be complicated. Our cloud migration experts carefully plan and execute your migration strategy while minimizing downtime and ensuring data security."
         />
         <div className="text-center mx-auto max-w-3xl">
-          <h3 className="text-2xl font-semibold text-navy">Migrate to the Cloud with Zero Business Disruption</h3>
+          <h3 className="text-2xl font-semibold text-gradient-red sm:text-3xl">
+            Migrate to the Cloud with Zero Business Disruption
+          </h3>
           <p className="mt-4 text-foreground/90 leading-relaxed">
             We migrate applications, databases, virtual machines, email systems, and business workloads safely and efficiently.
           </p>
@@ -216,11 +218,14 @@ export default function CloudInfrastructurePage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Server Management"
+          title="Server"
+          redPart="Management"
           description="Ensure your business servers operate efficiently with proactive server management services. We monitor, maintain, secure, and optimize your servers to reduce downtime and improve performance."
         />
         <div className="text-center mx-auto max-w-3xl">
-          <h4 className="text-xl font-semibold text-navy">Reliable Server Administration & Maintenance</h4>
+          <h4 className="text-2xl font-semibold text-primary sm:text-3xl">
+            Reliable Server Administration & Maintenance
+          </h4>
           <p className="mt-4 text-foreground/90 leading-relaxed">
             Our team ensures your physical and virtual servers stay healthy, secure, and optimized for peak performance.
           </p>
@@ -307,11 +312,12 @@ export default function CloudInfrastructurePage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Managed IT Services"
+          title="Managed IT"
+          redPart="Services"
           description="Our Managed IT Services provide proactive monitoring, maintenance, technical support, and cybersecurity to keep your IT infrastructure running smoothly."
         />
         <div className="text-center mx-auto max-w-3xl">
-          <h4 className="text-xl font-semibold text-navy">Let Us Manage Your IT While You Focus on Business</h4>
+          <h4 className="text-xl font-semibold text-primary">Let Us Manage Your IT While You Focus on Business</h4>
           <p className="mt-4 text-foreground/90 leading-relaxed">
             We become your dedicated IT partner, ensuring maximum productivity and minimal disruptions.
           </p>
@@ -398,11 +404,12 @@ export default function CloudInfrastructurePage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="IT Consulting"
+          title="IT"
+          redPart="Consulting"
           description="Technology should empower your business—not slow it down. Our IT consultants help you identify the right technologies, optimize IT investments, and create digital transformation strategies aligned with your business goals."
         />
         <div className="text-center mx-auto max-w-3xl">
-          <h4 className="text-xl font-semibold text-navy">Strategic Technology Consulting for Business Growth</h4>
+          <h4 className="text-xl font-semibold text-primary">Strategic Technology Consulting for Business Growth</h4>
         </div>
         <div className="mt-8 grid gap-6 lg:grid-cols-2 lg:items-stretch">
           <motion.div
@@ -486,11 +493,12 @@ export default function CloudInfrastructurePage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Business Digitalization"
+          title="Business"
+          redPart="Digitalization"
           description="Accelerate business growth with digital transformation solutions that streamline operations, improve customer experiences, and increase productivity."
         />
         <div className="text-center mx-auto max-w-3xl">
-          <h4 className="text-xl font-semibold text-navy">Transform Traditional Business into a Digital Enterprise</h4>
+          <h4 className="text-xl font-semibold text-primary">Transform Traditional Business into a Digital Enterprise</h4>
           <p className="mt-4 text-foreground/90 leading-relaxed">
             We help businesses adopt modern technologies, automate workflows, and embrace digital innovation.
           </p>
@@ -577,11 +585,12 @@ export default function CloudInfrastructurePage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="IT Support & AMC"
+          title="IT Support"
+          redPart="& AMC"
           description="Keep your IT systems running smoothly with reliable technical support and preventive maintenance services. Our AMC plans ensure your hardware, software, networks, and IT infrastructure remain secure and operational."
         />
         <div className="text-center mx-auto max-w-3xl">
-          <h4 className="text-xl font-semibold text-navy">Comprehensive IT Support & Annual Maintenance Contracts</h4>
+          <h4 className="text-xl font-semibold text-primary">Comprehensive IT Support & Annual Maintenance Contracts</h4>
         </div>
         <div className="mt-8 grid gap-6 lg:grid-cols-2 lg:items-stretch">
           <motion.div
@@ -590,9 +599,9 @@ export default function CloudInfrastructurePage() {
             viewport={{ once: true, amount: 0.25 }}
             whileHover={motionHover}
             transition={{ duration: reducedMotion ? 0 : 0.65, ease: "easeOut" }}
-            className="group flex h-full flex-col rounded-3xl border border-primary/20 bg-card/80 backdrop-blur-xl p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
+            className="group flex h-full flex-col rounded-3xl border border-border bg-card p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
           >
-            <h4 className="text-xl font-semibold text-navy">Our Support Services</h4>
+            <h4 className="text-xl font-semibold text-primary">Our Support Services</h4>
             <ul className="mt-5 grid gap-3">
               <li className="flex items-start gap-3 rounded-3xl bg-white/5 p-4 transition-all duration-300 hover:bg-primary/10">
                 <CheckCircle2 className="mt-1 h-4 w-4 text-primary" />
@@ -634,9 +643,9 @@ export default function CloudInfrastructurePage() {
             viewport={{ once: true, amount: 0.25 }}
             whileHover={motionHover}
             transition={{ duration: reducedMotion ? 0 : 0.65, ease: "easeOut" }}
-            className="group flex h-full flex-col rounded-3xl border border-primary/20 bg-card/80 backdrop-blur-xl p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
+            className="group flex h-full flex-col rounded-3xl border border-border bg-card p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
           >
-            <h4 className="text-xl font-semibold text-navy">Why Choose Our AMC Services</h4>
+            <h4 className="text-xl font-semibold text-primary">Why Choose Our AMC Services</h4>
             <ul className="mt-5 grid gap-3">
               <li className="flex items-start gap-3 rounded-3xl bg-white/5 p-4 transition-all duration-300 hover:bg-primary/10">
                 <CheckCircle2 className="mt-1 h-4 w-4 text-primary" />
@@ -666,7 +675,7 @@ export default function CloudInfrastructurePage() {
       <Section className="pt-0">
         <CtaBanner
           title="Future-Proof Your IT Infrastructure Today"
-          description="Empower your business with secure, scalable, and reliable IT Infrastructure & Cloud solutions from Nexova Tech Zone. Whether you need cloud migration, server management, managed IT services, or ongoing IT support, our experts are here to help. Contact us today for a free consultation and discover how we can optimize your IT environment for growth and success."
+          description="Empower your business with secure, scalable, and reliable IT Infrastructure & Cloud solutions from Nexova TechZone. Whether you need cloud migration, server management, managed IT services, or ongoing IT support, our experts are here to help. Contact us today for a free consultation and discover how we can optimize your IT environment for growth and success."
           primary={{ label: "Contact Us", to: "/contact" }}
           secondary={{ label: "Talk to an Expert", to: "/contact" }}
         />

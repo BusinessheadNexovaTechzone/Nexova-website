@@ -10,7 +10,7 @@ export default function ContractITStaffingPage() {
         eyebrow="IT Staffing & Workforce"
         title="IT Staffing Services for"
         redPart="Growing Businesses"
-        description="Partner with Nexova Tech Zone to hire the right IT talent when you need it most. Our workforce solutions provide skilled professionals for contract, remote, dedicated, and outsourced roles so your business can scale quickly and efficiently."
+        description="Partner with Nexova TechZone to hire the right IT talent when you need it most. Our workforce solutions provide skilled professionals for contract, remote, dedicated, and outsourced roles so your business can scale quickly and efficiently."
         stats={[
           { value: "1000+", label: "IT Professionals" },
           { value: "85%", label: "Repeat Clients" },
@@ -30,13 +30,14 @@ export default function ContractITStaffingPage() {
 
       <Section>
         <SectionHeading
-          eyebrow="Contract IT Staffing"
-          title="Hire experienced IT professionals for short-term projects, seasonal workloads, or specialized assignments without the commitment of permanent hiring."
+          title="Contract IT"
+          redPart="Staffing"
+          description="Hire experienced IT professionals for short-term projects, seasonal workloads, or specialized assignments without the commitment of permanent hiring."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Benefits</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Benefits</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Quick deployment of skilled professionals</li>
               <li>Flexible hiring duration</li>
               <li>Reduced recruitment costs</li>
@@ -45,7 +46,7 @@ export default function ContractITStaffingPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Contract Staffing Value</h3>
+            <h3 className="text-2xl font-semibold text-primary">Contract Staffing Value</h3>
             <p className="mt-5 text-foreground/90 leading-relaxed">
               Contract IT staffing gives you the flexibility to add immediate technical capacity without the overhead of permanent recruitment, helping teams move faster and deliver critical projects on time.
             </p>
@@ -55,16 +56,14 @@ export default function ContractITStaffingPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          eyebrow="Remote Developers"
-          title="Expand your development capabilities by hiring highly skilled remote software developers who seamlessly integrate with your existing team."
+          title="Remote"
+          redPart="Developers"
+          description="Expand your development capabilities by hiring highly skilled remote software developers who seamlessly integrate with your existing team."
         />
-        <p className="mx-auto mb-8 max-w-3xl text-center text-foreground/80">
-          Our remote developers are experienced across multiple stacks and collaborate effectively across time zones to deliver quality software faster.
-        </p>
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Technologies</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Technologies</h3>
+            <ul className="mt-5 grid gap-3 text-foreground/90 sm:grid-cols-2 list-disc list-inside marker:text-primary">
               {[
                 "Java",
                 "Python",
@@ -87,8 +86,11 @@ export default function ContractITStaffingPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Why Choose Remote Developers?</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Why Choose Remote Developers?</h3>
+            <p className="mt-5 text-foreground/90 leading-relaxed">
+              Our remote developers are experienced across multiple stacks and collaborate effectively across time zones to deliver quality software faster.
+            </p>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Global talent pool</li>
               <li>Cost-effective hiring</li>
               <li>Flexible engagement models</li>
@@ -101,19 +103,20 @@ export default function ContractITStaffingPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          eyebrow="Dedicated Developers"
-          title="Need developers who work exclusively on your project?"
+          title="Dedicated"
+          redPart="Developers"
+          description="Need developers who work exclusively on your project?"
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Dedicated Development Teams</h3>
+            <h3 className="text-2xl font-semibold text-primary">Dedicated Development Teams</h3>
             <p className="mt-5 text-foreground/90 leading-relaxed">
               Our dedicated developers become an extension of your internal team, working full-time according to your project requirements, communication processes, and business objectives.
             </p>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Ideal For</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Ideal For</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Long-term software projects</li>
               <li>SaaS product development</li>
               <li>Startup MVP development</li>
@@ -127,13 +130,14 @@ export default function ContractITStaffingPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          eyebrow="Resource Augmentation"
-          title="Scale your existing team with experienced technology professionals whenever your project demands additional expertise."
+          title="Resource"
+          redPart="Augmentation"
+          description="Scale your existing team with experienced technology professionals whenever your project demands additional expertise."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Advantages</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Advantages</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Rapid team scaling</li>
               <li>Access to niche technology skills</li>
               <li>Flexible engagement</li>
@@ -142,7 +146,7 @@ export default function ContractITStaffingPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Fast Team Expansion</h3>
+            <h3 className="text-2xl font-semibold text-primary">Fast Team Expansion</h3>
             <p className="mt-5 text-foreground/90 leading-relaxed">
               Whether you need one developer or an entire project team, we provide the right professionals at the right time.
             </p>
@@ -152,13 +156,14 @@ export default function ContractITStaffingPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          eyebrow="Technical Hiring"
-          title="Finding highly qualified technical talent requires industry expertise and an extensive talent network."
+          title="Technical"
+          redPart="Hiring"
+          description="Finding highly qualified technical talent requires industry expertise and an extensive talent network."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">We Recruit</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">We Recruit</h3>
+            <ul className="mt-5 grid gap-3 text-foreground/90 sm:grid-cols-2 list-disc list-inside marker:text-primary">
               {[
                 "Software Developers",
                 "Full Stack Developers",
@@ -181,7 +186,7 @@ export default function ContractITStaffingPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Hiring Process</h3>
+            <h3 className="text-2xl font-semibold text-primary">Hiring Process</h3>
             <p className="mt-5 text-foreground/90 leading-relaxed">
               Our hiring process includes technical screening, skill assessments, interview coordination, and candidate verification to ensure you receive top-quality talent.
             </p>
@@ -191,33 +196,51 @@ export default function ContractITStaffingPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          eyebrow="Workforce Outsourcing"
-          title="Reduce operational complexity by outsourcing your IT workforce solutions to experienced staffing professionals."
+          title="Workforce"
+          redPart="Outsourcing"
+          description="Reduce operational complexity by outsourcing your IT workforce solutions to an experienced staffing partner who manages talent sourcing, onboarding, and project support."
         />
-        <div className="grid gap-6 lg:grid-cols-2">
-          <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Outsourcing Benefits</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
-              <li>Lower hiring costs</li>
-              <li>Faster recruitment</li>
-              <li>Improved workforce flexibility</li>
-              <li>Better compliance</li>
-              <li>Reduced HR workload</li>
-              <li>Scalable staffing solutions</li>
-            </ul>
-          </div>
-          <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Workforce Management</h3>
-            <p className="mt-5 text-foreground/90 leading-relaxed">
-              We manage recruitment, onboarding, workforce administration, and ongoing support, allowing your business to focus on growth and innovation.
-            </p>
-          </div>
-        </div>
+    <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
+  <div className="mx-auto max-w-xl text-center">
+    <h3 className="text-2xl font-semibold text-primary">
+      Outsourcing Benefits
+    </h3>
+
+    <ul className="mt-5 inline-block text-left space-y-3 list-disc list-inside marker:text-primary text-foreground/90">
+      <li>Lower hiring costs</li>
+      <li>Faster recruitment</li>
+      <li>Improved workforce flexibility</li>
+      <li>Better compliance</li>
+      <li>Reduced HR workload</li>
+      <li>Scalable staffing solutions</li>
+    </ul>
+  </div>
+</div>
       </Section>
 
       <Section className="pt-0">
         <SectionHeading
-          title="Industries We Serve"
+          title="Workforce"
+          redPart="Management"
+          description="We manage recruitment, onboarding, workforce administration, and ongoing support, allowing your business to focus on growth and innovation."
+        />
+        <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
+  <div className="mx-auto max-w-2xl text-center">
+    <h3 className="text-2xl font-semibold text-primary">
+      Operational Support
+    </h3>
+
+    <p className="mt-5 leading-relaxed text-foreground/90">
+      Our team handles the full workforce lifecycle so your business can stay focused on strategic growth and innovation.
+    </p>
+  </div>
+</div>
+      </Section>
+
+      <Section className="pt-0">
+        <SectionHeading
+          title="Industries We"
+          redPart="Serve"
           description="We provide IT staffing services across multiple industries, including technology, healthcare, finance, retail, logistics, education, and more."
         />
         <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
@@ -246,28 +269,36 @@ export default function ContractITStaffingPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Our Hiring Process"
+          title="Our Hiring"
+          redPart="Process"
           description="We follow a structured hiring process that ensures the best fit for your technical and business requirements."
         />
-        <div className="space-y-4 text-foreground/90">
+
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {[
-            "Requirement Analysis – We understand your technical requirements, project scope, team size, budget, and timelines.",
-            "Talent Sourcing – Our recruiters identify qualified candidates from our extensive talent network.",
-            "Technical Evaluation – Candidates undergo technical screening, skill validation, and interview assessments.",
-            "Client Interview – You interview shortlisted candidates and select the professionals that best fit your team.",
-            "Onboarding – Selected professionals are quickly onboarded and integrated into your project.",
-            "Ongoing Support – We provide continuous support throughout the engagement to ensure smooth collaboration and project success.",
+            "Requirement Analysis",
+            "Talent Sourcing",
+            "Technical Evaluation",
+            "Client Interview",
+            "Onboarding",
+            "Ongoing Support",
           ].map((step, index) => (
-            <div key={step} className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-              <p className="font-semibold text-navy">{index + 1}. {step}</p>
-            </div>
-          ))}
-        </div>
-      </Section>
+      <div
+        key={step}
+        className="rounded-2xl border border-border bg-card px-6 py-4 shadow-[var(--shadow-soft)] transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+      >
+        <h3 className="text-lg font-semibold text-navy">
+          {index + 1}. {step}
+        </h3>
+      </div>
+    ))}
+  </div>
+</Section>
 
       <Section className="pt-0">
-        <SectionHeading
-          title="Why Businesses Trust Our IT Staffing Services"
+        <SectionHeading 
+          title="Why Businesses Trust Our"
+          redPart="IT Staffing Services"
           description="Our clients choose us for faster hiring cycles, high-quality candidates, flexible engagement models, and scalable workforce solutions."
         />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -291,7 +322,7 @@ export default function ContractITStaffingPage() {
       <Section className="pt-0">
         <CtaBanner
           title="Ready to Build Your Dream Tech Team?"
-          description="Partner with Nexova Tech Zone for reliable, scalable, and cost-effective IT staffing and workforce solutions. Whether you need contract professionals, dedicated developers, remote teams, or complete workforce outsourcing, we're here to help you hire the right talent and achieve your business goals."
+          description="Partner with Nexova TechZone for reliable, scalable, and cost-effective IT staffing and workforce solutions. Whether you need contract professionals, dedicated developers, remote teams, or complete workforce outsourcing, we're here to help you hire the right talent and achieve your business goals."
           primary={{ label: "Discuss Your Staffing Needs", to: "/contact" }}
           secondary={{ label: "Talk to Our Recruiters", to: "/contact" }}
         />

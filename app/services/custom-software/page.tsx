@@ -10,7 +10,7 @@ export default function CustomSoftwarePage() {
         eyebrow="Software Development"
         title="Leading Software Development Company for"
         redPart="Innovative Digital Solutions"
-        description="Transform your ideas into powerful digital solutions with Nexova Tech Zone, a trusted Software Development Company delivering innovative, scalable, and secure software for businesses of every size. From startups to large enterprises, our experienced developers create future-ready software tailored to your unique business goals."
+        description="Transform your ideas into powerful digital solutions with Nexova TechZone, a trusted Software Development Company delivering innovative, scalable, and secure software for businesses of every size. From startups to large enterprises, our experienced developers create future-ready software tailored to your unique business goals."
         stats={[
           { value: "100+", label: "Products Delivered" },
           { value: "50+", label: "Industry Verticals" },
@@ -48,8 +48,8 @@ export default function CustomSoftwarePage() {
         </p>
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">What We Deliver</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">What We Deliver</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Business Management Software</li>
               <li>Workflow Automation Systems</li>
               <li>Custom Business Applications</li>
@@ -60,8 +60,8 @@ export default function CustomSoftwarePage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Why Choose Custom Software?</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Why Choose Custom Software?</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Built for your business processes</li>
               <li>Scalable architecture for growth</li>
               <li>Secure implementation from day one</li>
@@ -84,8 +84,8 @@ export default function CustomSoftwarePage() {
         />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Our Expertise</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Our Expertise</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Business Portals</li>
               <li>Customer Portals</li>
               <li>Admin Dashboards</li>
@@ -95,8 +95,8 @@ export default function CustomSoftwarePage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Why Web Applications?</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Why Web Applications?</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Accessible across devices</li>
               <li>Fast, secure delivery</li>
               <li>Reliable enterprise performance</li>
@@ -118,8 +118,8 @@ export default function CustomSoftwarePage() {
         />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Services Include</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Services Include</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Android App Development</li>
               <li>iOS App Development</li>
               <li>Flutter Development</li>
@@ -130,7 +130,7 @@ export default function CustomSoftwarePage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Why Mobile Apps?</h3>
+            <h3 className="text-2xl font-semibold text-primary">Why Mobile Apps?</h3>
             <p className="mt-5 text-foreground/90 leading-relaxed">
               Reach your customers anytime, anywhere with powerful mobile applications developed by an experienced software development company.
             </p>
@@ -150,8 +150,8 @@ export default function CustomSoftwarePage() {
         />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Enterprise Solutions</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Enterprise Solutions</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>HR Management Systems</li>
               <li>Inventory Management</li>
               <li>Project Management Systems</li>
@@ -162,8 +162,8 @@ export default function CustomSoftwarePage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Why Enterprise Apps?</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Why Enterprise Apps?</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Improved collaboration</li>
               <li>Process automation</li>
               <li>Scalable information access</li>
@@ -185,8 +185,8 @@ export default function CustomSoftwarePage() {
         />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Features</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Features</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Multi-Tenant Architecture</li>
               <li>Subscription Management</li>
               <li>User Authentication</li>
@@ -197,7 +197,7 @@ export default function CustomSoftwarePage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Why SaaS?</h3>
+            <h3 className="text-2xl font-semibold text-primary">Why SaaS?</h3>
             <p className="mt-5 text-foreground/90 leading-relaxed">
               Launch innovative cloud-based products that scale with your customers and evolve with market demand.
             </p>
@@ -213,8 +213,8 @@ export default function CustomSoftwarePage() {
         />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Solutions</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Solutions</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Customer Relationship Management</li>
               <li>Sales Automation</li>
               <li>Finance & Accounting</li>
@@ -225,7 +225,7 @@ export default function CustomSoftwarePage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Business Benefits</h3>
+            <h3 className="text-2xl font-semibold text-primary">Business Benefits</h3>
             <p className="mt-5 text-foreground/90 leading-relaxed">
               Our intelligent software improves productivity, enhances decision-making, and automates day-to-day operations while adapting to your unique workflows.
             </p>
@@ -245,8 +245,8 @@ export default function CustomSoftwarePage() {
         />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Key Features</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Key Features</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Fast Billing</li>
               <li>Inventory Tracking</li>
               <li>Barcode Integration</li>
@@ -258,7 +258,7 @@ export default function CustomSoftwarePage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Why POS Software?</h3>
+            <h3 className="text-2xl font-semibold text-primary">Why POS Software?</h3>
             <p className="mt-5 text-foreground/90 leading-relaxed">
               Our POS solutions provide real-time insights, multi-branch management, cloud synchronization, and secure business operations.
             </p>
@@ -292,7 +292,7 @@ export default function CustomSoftwarePage() {
       <Section className="pt-0">
         <SectionHeading
           title="Let's Build Your Next Software Solution"
-          description="Whether you're looking for a reliable Software Development Company to build a custom business application, enterprise software, mobile app, SaaS platform, CRM, ERP, or POS solution, Nexova Tech Zone has the expertise to bring your vision to life."
+          description="Whether you're looking for a reliable Software Development Company to build a custom business application, enterprise software, mobile app, SaaS platform, CRM, ERP, or POS solution, Nexova TechZone has the expertise to bring your vision to life."
           titleClassName="text-2xl font-extrabold tracking-tight leading-tight text-navy sm:text-3xl md:text-4xl lg:text-5xl"
         />
         <p className="mx-auto mb-10 max-w-3xl text-center text-foreground/80">
@@ -303,7 +303,7 @@ export default function CustomSoftwarePage() {
       <Section className="pt-0">
         <CtaBanner
           title="Start Your Custom Software Journey"
-          description="Contact Nexova Tech Zone today to discuss your project and discover how our custom software solutions can accelerate your business growth."
+          description="Contact Nexova TechZone today to discuss your project and discover how our custom software solutions can accelerate your business growth."
           primary={{ label: "Schedule a Consultation", to: "/contact" }}
           secondary={{ label: "Talk to a Developer", to: "/contact" }}
         />

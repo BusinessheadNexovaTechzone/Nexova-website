@@ -57,7 +57,8 @@ export default function MedicalCodingBillingServicesPage() {
 
       <Section>
         <SectionHeading
-          title="Why Medical Coding & Billing Matters"
+          title="Why Medical Coding & Billing"
+          redPart="Matters"
           description="Every unbilled charge, denied claim, or medical coding error is revenue your practice has already earned but hasn't collected. Rising denial rates, evolving payer regulations, and staffing shortages have made medical billing increasingly difficult to manage in-house."
         />
         <p className="mx-auto max-w-3xl text-center text-foreground/80">
@@ -66,15 +67,15 @@ export default function MedicalCodingBillingServicesPage() {
       </Section>
 
       <Section id="our-services">
-        <SectionHeading title="Our Medical Coding & Billing Services" />
+        <SectionHeading title="Our Medical Coding & Billing" redPart="Services" />
 
         <div className="grid gap-8 lg:grid-cols-3">
           <div className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Medical Coding</h3>
+            <h3 className="text-2xl font-semibold text-primary">Medical Coding</h3>
             <p className="mt-4 text-foreground/90">
               Accurate medical coding using ICD-10-CM, CPT, and HCPCS performed by AAPC/AHIMA-certified coders matched to your specialty.
             </p>
-            <ul className="mt-6 space-y-3 text-foreground/90 list-disc list-inside">
+            <ul className="mt-6 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Chart review</li>
               <li>Diagnosis coding</li>
               <li>Procedure coding</li>
@@ -85,11 +86,11 @@ export default function MedicalCodingBillingServicesPage() {
           </div>
 
           <div className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Medical Billing</h3>
+            <h3 className="text-2xl font-semibold text-primary">Medical Billing</h3>
             <p className="mt-4 text-foreground/90">
               Comprehensive medical billing services covering the complete claims lifecycle.
             </p>
-            <ul className="mt-6 space-y-3 text-foreground/90 list-disc list-inside">
+            <ul className="mt-6 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Charge entry</li>
               <li>Claim scrubbing</li>
               <li>Electronic & paper claim submission</li>
@@ -101,11 +102,11 @@ export default function MedicalCodingBillingServicesPage() {
           </div>
 
           <div className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Revenue Cycle Management (RCM)</h3>
+            <h3 className="text-2xl font-semibold text-primary">Revenue Cycle Management (RCM)</h3>
             <p className="mt-4 text-foreground/90">
               Our Revenue Cycle Management integrates medical coding and medical billing into one streamlined workflow.
             </p>
-            <ul className="mt-6 space-y-3 text-foreground/90 list-disc list-inside">
+            <ul className="mt-6 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Eligibility verification</li>
               <li>Benefits verification</li>
               <li>Prior authorization</li>
@@ -121,11 +122,11 @@ export default function MedicalCodingBillingServicesPage() {
       <Section>
         <div className="grid gap-8 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Denial Management & Appeals</h3>
+            <h3 className="text-2xl font-semibold text-primary">Denial Management & Appeals</h3>
             <p className="mt-4 text-foreground/90">
               Every denied medical billing claim represents recoverable revenue.
             </p>
-            <ul className="mt-6 space-y-3 text-foreground/90 list-disc list-inside">
+            <ul className="mt-6 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Root-cause analysis</li>
               <li>Corrected claims</li>
               <li>Appeals management</li>
@@ -135,11 +136,11 @@ export default function MedicalCodingBillingServicesPage() {
           </div>
 
           <div className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Accounts Receivable (AR) Follow-Up</h3>
+            <h3 className="text-2xl font-semibold text-primary">Accounts Receivable (AR) Follow-Up</h3>
             <p className="mt-4 text-foreground/90">
               Accelerate collections with dedicated medical billing follow-up.
             </p>
-            <ul className="mt-6 space-y-3 text-foreground/90 list-disc list-inside">
+            <ul className="mt-6 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>30/60/90+ AR recovery</li>
               <li>Insurance follow-up</li>
               <li>Patient balance support</li>
@@ -151,8 +152,9 @@ export default function MedicalCodingBillingServicesPage() {
 
       <Section>
         <SectionHeading
-          eyebrow="Optional Support"
-          title="Credentialing & Payer Enrollment"
+          // eyebrow="Optional Support"
+          title="Credentialing & Payer"
+          redPart="Enrollment"
           description="Optional support to keep your practice credentialed, enrolled, and able to bill the right payers with minimal friction."
         />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -172,7 +174,8 @@ export default function MedicalCodingBillingServicesPage() {
 
       <Section>
         <SectionHeading
-          title="Why Outsource Medical Coding & Medical Billing?"
+          title="Why Outsource Medical Coding &"
+          redPart="Medical Billing?"
           description="Managing medical coding and medical billing internally requires continuous training, certified staff, and constant adaptation to payer updates. By outsourcing to us, you receive a full-service RCM team that delivers accuracy, speed, and transparency."
           centered={false}
         />
@@ -194,7 +197,7 @@ export default function MedicalCodingBillingServicesPage() {
       </Section>
 
       <Section>
-        <SectionHeading title="How Our Process Works" centered={false} />
+        <SectionHeading title="How Our Process" redPart="Works" centered={false} />
         <div className="grid gap-8 lg:grid-cols-5">
           {[
             { title: "Free Practice Audit", description: "We review your existing medical billing performance, coding accuracy, and denial trends." },
@@ -204,7 +207,7 @@ export default function MedicalCodingBillingServicesPage() {
             { title: "Reporting & Performance Reviews", description: "Receive monthly dashboards covering collections, denial rate, days in AR, coding accuracy, and billing performance." },
           ].map((step) => (
             <div key={step.title} className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-              <h4 className="text-lg font-semibold text-navy">{step.title}</h4>
+              <h4 className="text-lg font-semibold text-primary">{step.title}</h4>
               <p className="mt-3 text-foreground/90">{step.description}</p>
             </div>
           ))}
@@ -213,7 +216,8 @@ export default function MedicalCodingBillingServicesPage() {
 
       <Section>
         <SectionHeading
-          title="Medical Specialties We Serve"
+          title="Medical Specialties"
+          redPart="We Serve"
           description="Our team supports providers across a wide range of specialties with deep coding and billing experience."
           centered={false}
         />
@@ -245,7 +249,8 @@ export default function MedicalCodingBillingServicesPage() {
 
       <Section>
         <SectionHeading
-          title="Built on Compliance"
+          title="Built on"
+          redPart="Compliance"
           description="Our medical coding and medical billing services are designed with compliance at the core."
           centered={false}
         />
@@ -288,7 +293,8 @@ export default function MedicalCodingBillingServicesPage() {
 
       <Section>
         <SectionHeading
-          title="Why Choose Our Medical Coding & Billing Services?"
+          title="Why Choose Our Medical Coding & Billing"
+          redPart="Services?"
           description="We deliver specialty-matched expertise, faster reimbursements, and transparent performance reporting for US healthcare providers."
           centered={false}
         />
@@ -310,7 +316,7 @@ export default function MedicalCodingBillingServicesPage() {
       </Section>
 
       <Section>
-        <SectionHeading title="Frequently Asked Questions" centered={false} />
+        <SectionHeading title="Frequently Asked" redPart="Questions" centered={false} />
         <div className="grid gap-6">
           {[
             {

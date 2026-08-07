@@ -197,23 +197,29 @@ export default function HomePage() {
               <div className="mb-4 inline-block">
                 <EyebrowChip>Strategic Intelligence Active</EyebrowChip>
               </div>
-              <h1 className="font-extrabold leading-tight text-navy lg:mt-8">
-  <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-    Leading IT Services Company
+             <h1 className="font-extrabold leading-tight text-navy lg:mt-8">
+  {/* First Line */}
+  <span className="flex flex-wrap items-center gap-x-5 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+    <span>Leading</span>
+    <span>IT</span>
+    <span>Services</span>
+    <span>Company</span>
   </span>
 
-  <span className="block mt-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
+  {/* Second Line */}
+  <span className="block mt-4 text-2xl font-bold sm:text-3xl md:text-4xl lg:text-5xl">
     Empowering Businesses with
   </span>
 
-  <span className="block mt-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+  {/* Third Line */}
+  <span className="block mt-4 text-xl sm:text-2xl md:text-3xl lg:text-4xl">
     <span className="text-gradient-red">
       Innovative Technology Solutions
     </span>
   </span>
 </h1>
               <p className="mt-6 max-w-lg text-base font-normal font-sans leading-relaxed text-muted-foreground md:mt-8 md:text-lg md:leading-relaxed">
-                Nexova Tech Zone is a leading IT Services Company delivering innovative IT Solutions that help businesses accelerate digital transformation. We specialize in software development, IT staffing, AI automation, digital marketing, cloud infrastructure, and cyber security services. Our expert team combines technology, innovation, and industry expertise to provide reliable IT Services and Consulting that drive measurable business growth.
+                Nexova TechZone is a leading IT Services Company delivering innovative IT Solutions that help businesses accelerate digital transformation. We specialize in software development, IT staffing, AI automation, digital marketing, cloud infrastructure, and cyber security services. Our expert team combines technology, innovation, and industry expertise to provide reliable IT Services and Consulting that drive measurable business growth.
               </p>
               <div className="mt-8 flex flex-wrap gap-4 md:gap-3">
                 <Link href="/contact" className="btn-motion group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-red)] hover:-translate-y-1 hover:shadow-[0_20px_60px_-12px_oklch(0.55_0.22_25_/_0.5)]">
@@ -260,7 +266,7 @@ export default function HomePage() {
               Empowering Businesses with <span className="text-gradient-red">IT Solutions</span>
             </h2>
             <p className="text-base md:text-lg leading-relaxed text-foreground mb-8">
-              As a trusted IT Services Company, Nexova Tech Zone helps startups, SMEs, and enterprises solve complex business challenges with customized IT Solutions. Our mission is to empower organizations with scalable technology, secure infrastructure, and innovative digital experiences that improve productivity and business performance.
+              As a trusted IT Services Company, Nexova TechZone helps startups, SMEs, and enterprises solve complex business challenges with customized IT Solutions. Our mission is to empower organizations with scalable technology, secure infrastructure, and innovative digital experiences that improve productivity and business performance.
             </p>
 
             <p className="text-base md:text-lg leading-relaxed text-foreground mb-8">
@@ -317,9 +323,9 @@ export default function HomePage() {
       </Section>
 
       <Section className="pt-0">
-        <SectionHeading eyebrow="Why Choose Nexova Tech Zone?" title="Your Trusted IT Services" redPart="Company" />
+        <SectionHeading eyebrow="Why Choose Nexova TechZone?" title="Your Trusted IT Services" redPart="Company" />
         <p className="mx-auto mb-8 max-w-3xl text-center text-foreground/80">
-          Choosing the right technology partner is critical to your business success. At Nexova Tech Zone, we combine technical expertise, innovation, and customer-focused strategies to deliver exceptional IT Services and Consulting that help businesses stay competitive.
+          Choosing the right technology partner is critical to your business success. At Nexova TechZone, we combine technical expertise, innovation, and customer-focused strategies to deliver exceptional IT Services and Consulting that help businesses stay competitive.
         </p>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {[
@@ -407,7 +413,7 @@ export default function HomePage() {
             <div>
               <h2 className="text-3xl font-extrabold text-navy md:text-4xl">Looking for a Reliable IT Services Company?</h2>
               <p className="mt-4 max-w-2xl text-foreground/80 leading-relaxed">
-                Partner with Nexova Tech Zone for innovative IT Services and Consulting that help your business grow with confidence. From software development and AI automation to cloud infrastructure, IT staffing, digital marketing, and cyber security, we deliver complete IT Solutions tailored to your business needs.
+                Partner with Nexova TechZone for innovative IT Services and Consulting that help your business grow with confidence. From software development and AI automation to cloud infrastructure, IT staffing, digital marketing, and cyber security, we deliver complete IT Solutions tailored to your business needs.
               </p>
             </div>
             <div className="flex flex-col gap-4">
@@ -509,7 +515,7 @@ export default function HomePage() {
         </div>
       </Section>
 
-      {/* Trust Section */}
+      {/* Trust Section
       <Section className="pt-0">
         <SectionHeading eyebrow="Why Trust Us" title="Trusted Technology Partner for " redPart="Growing Businesses" />
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
@@ -527,7 +533,7 @@ export default function HomePage() {
             </div>
           ))}
         </div>
-      </Section>
+      </Section> */}
 
       {/* Clients */}
       <Section className="pt-0">

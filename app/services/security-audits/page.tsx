@@ -30,14 +30,15 @@ export default function SecurityAuditsPage() {
 
       <Section>
         <SectionHeading
-          eyebrow="Our Cyber Security Services"
-          title="Security Audits"
+          
+          title="Our Cyber Security"
+          redPart="Services"
           description="Regular security audits help identify weaknesses in your IT infrastructure before attackers can exploit them. Our comprehensive security assessments evaluate your networks, servers, applications, cloud environments, and security policies to ensure compliance with industry standards."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Our Security Audit Includes</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Our Security Audit Includes</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Infrastructure Security Assessment</li>
               <li>Network Configuration Review</li>
               <li>Security Policy Evaluation</li>
@@ -48,8 +49,8 @@ export default function SecurityAuditsPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Benefits</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Benefits</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Identify hidden security risks</li>
               <li>Improve regulatory compliance</li>
               <li>Reduce cyber attack exposure</li>
@@ -61,13 +62,14 @@ export default function SecurityAuditsPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Vulnerability Testing"
+          title="Vulnerability"
+          redPart="Testing"
           description="Our vulnerability testing service identifies security flaws across your systems, websites, web applications, and networks before hackers do. We perform thorough scans and manual assessments to uncover vulnerabilities that could compromise your business."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">What We Test</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">What We Test</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Web Applications</li>
               <li>Business Websites</li>
               <li>Internal Networks</li>
@@ -78,8 +80,8 @@ export default function SecurityAuditsPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Benefits</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Benefits</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Early detection of vulnerabilities</li>
               <li>Reduced security risks</li>
               <li>Improved application security</li>
@@ -91,13 +93,14 @@ export default function SecurityAuditsPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Endpoint Security"
+          title="Endpoint"
+          redPart="Security"
           description="Every connected device represents a potential entry point for cyber threats. Our endpoint security solutions protect laptops, desktops, servers, and mobile devices against malware, ransomware, phishing, and unauthorized access."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Endpoint Protection Features</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Endpoint Protection Features</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Advanced Antivirus & Anti-Malware</li>
               <li>Ransomware Protection</li>
               <li>Device Monitoring</li>
@@ -108,8 +111,8 @@ export default function SecurityAuditsPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Benefits</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Benefits</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Secure remote workforce</li>
               <li>Prevent malware infections</li>
               <li>Protect business devices</li>
@@ -121,13 +124,14 @@ export default function SecurityAuditsPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Data Protection"
+          title="Data"
+          redPart="Protection"
           description="Your business data is one of your most valuable assets. We implement advanced data protection strategies that ensure confidentiality, integrity, and availability while helping organizations meet privacy and compliance requirements."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Our Data Protection Services</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Our Data Protection Services</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Data Encryption</li>
               <li>Secure Data Backup</li>
               <li>Disaster Recovery Planning</li>
@@ -138,8 +142,8 @@ export default function SecurityAuditsPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Benefits</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Benefits</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Prevent unauthorized data access</li>
               <li>Protect sensitive customer information</li>
               <li>Ensure business continuity</li>
@@ -147,18 +151,21 @@ export default function SecurityAuditsPage() {
             </ul>
           </div>
         </div>
-        <div className="mt-8 rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-          <h4 className="text-xl font-semibold text-navy">How does data protection help my business?</h4>
-          <p className="mt-4 text-foreground/90 leading-relaxed">
-            Data protection safeguards sensitive information through encryption, secure backups, access controls, and disaster recovery planning, helping ensure business continuity and regulatory compliance.
-          </p>
-        </div>
+        <div className="mt-8 text-center">
+  <h4 className="text-xl font-semibold text-navy">
+    How does data protection help my business?
+  </h4>
+
+  <p className="mx-auto mt-4 max-w-3xl leading-relaxed text-foreground/90">
+    Data protection safeguards sensitive information through encryption, secure backups, access controls, and disaster recovery planning, helping ensure business continuity and regulatory compliance.
+  </p>
+</div>
       </Section>
 
       <Section className="pt-0">
         <CtaBanner
           title="Protect Your Business with Proactive Security"
-          description="Secure your infrastructure, protect your data, and reduce cyber risk with Nexova Tech Zone’s expert security audits, vulnerability testing, endpoint protection, and data protection services. Contact us today for a consultation."
+          description="Secure your infrastructure, protect your data, and reduce cyber risk with Nexova TechZone’s expert security audits, vulnerability testing, endpoint protection, and data protection services. Contact us today for a consultation."
           primary={{ label: "Request a Security Audit", to: "/contact" }}
           secondary={{ label: "Talk to Security", to: "/contact" }}
         />

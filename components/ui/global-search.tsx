@@ -23,7 +23,7 @@ const searchData: SearchResult[] = [
   { id: "7", title: "UI/UX Design", description: "User-centered design for digital experiences", type: "service", url: "/services/ui-ux-design" },
   { id: "8", title: "Digital Marketing", description: "Strategic marketing campaigns and growth", type: "service", url: "/services/digital-marketing" },
   // Pages
-  { id: "p1", title: "Home", description: "Welcome to Nexova Tech Zone", type: "page", url: "/" },
+  { id: "p1", title: "Home", description: "Welcome to Nexova TechZone", type: "page", url: "/" },
   { id: "p2", title: "Services", description: "Explore our comprehensive service offerings", type: "page", url: "/services" },
   { id: "p3", title: "About Us", description: "Learn about our company and team", type: "page", url: "/about" },
   { id: "p4", title: "Products", description: "Our innovative product solutions", type: "page", url: "/products" },

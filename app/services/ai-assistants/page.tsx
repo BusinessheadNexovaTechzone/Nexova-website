@@ -30,14 +30,15 @@ export default function AIAssistantsPage() {
 
       <Section>
         <SectionHeading
-          eyebrow="Our AI Automation Services"
-          title="AI Assistants"
+          
+          title="Our AI Automation"
+          redPart="Services"
           description="Empower your business with AI-powered virtual assistants that provide instant support, automate daily tasks, answer customer queries, schedule appointments, and assist employees 24/7. Our AI assistants integrate seamlessly with your website, CRM, ERP, WhatsApp, Slack, Microsoft Teams, and other business platforms."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Features</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Features</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>24/7 customer assistance</li>
               <li>Natural language conversations</li>
               <li>Appointment scheduling</li>
@@ -49,8 +50,8 @@ export default function AIAssistantsPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Benefits</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Benefits</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Reduce support costs</li>
               <li>Improve customer satisfaction</li>
               <li>Increase productivity</li>
@@ -63,13 +64,14 @@ export default function AIAssistantsPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="RAG Document Intelligence"
+          title="RAG Document"
+          redPart="Intelligence"
           description="Turn your documents into intelligent knowledge. Our Retrieval-Augmented Generation (RAG) solutions allow businesses to securely search, analyze, and retrieve information from thousands of documents using AI."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Supported Documents</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Supported Documents</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>PDFs</li>
               <li>Word Documents</li>
               <li>Excel Files</li>
@@ -81,8 +83,8 @@ export default function AIAssistantsPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Features</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Features</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>AI-powered document search</li>
               <li>Semantic search</li>
               <li>Instant document summarization</li>
@@ -93,8 +95,8 @@ export default function AIAssistantsPage() {
           </div>
         </div>
         <div className="mt-8 rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-          <h3 className="text-2xl font-semibold text-navy">Benefits</h3>
-          <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+          <h3 className="text-2xl font-semibold text-primary">Benefits</h3>
+          <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
             <li>Save hours of manual work</li>
             <li>Improve employee efficiency</li>
             <li>Faster knowledge retrieval</li>
@@ -105,13 +107,14 @@ export default function AIAssistantsPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="AI Chatbot Development for Businesses"
+          title="AI Chatbot Development"
+          redPart="for Businesses"
           description="Smart chatbots that convert visitors into customers. We build intelligent AI chatbots capable of answering customer questions, qualifying leads, booking appointments, providing product recommendations, and delivering personalized support."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Capabilities</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Capabilities</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Customer support</li>
               <li>Lead generation</li>
               <li>FAQ automation</li>
@@ -123,8 +126,8 @@ export default function AIAssistantsPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Benefits</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Benefits</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>24/7 customer service</li>
               <li>Higher lead conversion</li>
               <li>Reduced support workload</li>
@@ -136,13 +139,14 @@ export default function AIAssistantsPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="AI Sales Intelligence"
+          title="AI Sales"
+          redPart="Intelligence"
           description="AI that helps your sales team sell smarter. Our AI-powered sales intelligence solutions analyze customer behavior, identify high-value leads, predict buying intent, and provide actionable insights that improve sales performance."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Features</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Features</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Lead scoring</li>
               <li>Sales forecasting</li>
               <li>Customer behavior analysis</li>
@@ -154,8 +158,8 @@ export default function AIAssistantsPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Benefits</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Benefits</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Increase conversions</li>
               <li>Prioritize qualified leads</li>
               <li>Improve sales productivity</li>
@@ -167,13 +171,14 @@ export default function AIAssistantsPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Workflow Automation"
+          title="Workflow"
+          redPart="Automation"
           description="Automate repetitive business processes. Reduce manual work and improve operational efficiency through intelligent workflow automation."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Automation Solutions</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Automation Solutions</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>HR workflows</li>
               <li>Invoice processing</li>
               <li>Approval workflows</li>
@@ -185,8 +190,8 @@ export default function AIAssistantsPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Benefits</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Benefits</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Save time</li>
               <li>Reduce operational costs</li>
               <li>Eliminate human errors</li>
@@ -199,13 +204,14 @@ export default function AIAssistantsPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Supervised Learning Models"
+          title="Supervised Learning"
+          redPart="Models"
           description="Custom machine learning models for business intelligence. We develop supervised learning models that learn from historical data to predict future outcomes, classify information, and support intelligent decision-making."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Applications</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Applications</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Fraud detection</li>
               <li>Customer churn prediction</li>
               <li>Sales prediction</li>
@@ -217,8 +223,8 @@ export default function AIAssistantsPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Industries</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Industries</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Finance</li>
               <li>Healthcare</li>
               <li>Retail</li>
@@ -232,13 +238,14 @@ export default function AIAssistantsPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Business Intelligence AI"
+          title="Business Intelligence"
+          redPart="AI"
           description="Make smarter decisions with AI-powered analytics. Transform raw business data into meaningful insights with AI-driven business intelligence solutions."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Features</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Features</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Real-time dashboards</li>
               <li>Predictive analytics</li>
               <li>KPI monitoring</li>
@@ -250,8 +257,8 @@ export default function AIAssistantsPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Benefits</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Benefits</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Better business decisions</li>
               <li>Improved forecasting</li>
               <li>Increased operational visibility</li>
@@ -263,13 +270,14 @@ export default function AIAssistantsPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Custom AI Solutions"
+          title="Custom AI"
+          redPart="Solutions"
           description="Tailored AI solutions built for your business. We design and develop custom AI applications based on your business processes, goals, and industry requirements."
         />
         <div className="grid gap-6 lg:grid-cols-2">
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">We Build</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">We Build</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Custom AI applications</li>
               <li>AI SaaS platforms</li>
               <li>AI integrations</li>
@@ -281,8 +289,8 @@ export default function AIAssistantsPage() {
             </ul>
           </div>
           <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-            <h3 className="text-2xl font-semibold text-navy">Why Choose Custom AI?</h3>
-            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside">
+            <h3 className="text-2xl font-semibold text-primary">Why Choose Custom AI?</h3>
+            <ul className="mt-5 space-y-3 text-foreground/90 list-disc list-inside marker:text-primary">
               <li>Built specifically for your business</li>
               <li>Scalable architecture</li>
               <li>Secure implementation</li>
@@ -295,7 +303,8 @@ export default function AIAssistantsPage() {
 
       <Section className="pt-0">
         <SectionHeading
-          title="Industries We Serve"
+          title="Industries We"
+          redPart="Serve"
           description="We provide AI Automation solutions for a wide range of industries, including healthcare, education, real estate, retail & e-commerce, manufacturing, logistics, finance & banking, hospitality, information technology, and professional services."
         />
         <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
@@ -317,7 +326,7 @@ export default function AIAssistantsPage() {
       <Section className="pt-0">
         <CtaBanner
           title="Ready to Transform Your Business with AI?"
-          description="Unlock the power of AI Automation Services to streamline operations, enhance customer experiences, and accelerate business growth. Contact Nexova Tech Zone today for a free consultation and discover how our AI-driven solutions can help your business work smarter, faster, and more efficiently."
+          description="Unlock the power of AI Automation Services to streamline operations, enhance customer experiences, and accelerate business growth. Contact Nexova TechZone today for a free consultation and discover how our AI-driven solutions can help your business work smarter, faster, and more efficiently."
           primary={{ label: "Request a Consultation", to: "/contact" }}
           secondary={{ label: "Talk to an Expert", to: "/contact" }}
         />

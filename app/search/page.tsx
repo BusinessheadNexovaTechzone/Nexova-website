@@ -28,7 +28,7 @@ const searchData: SearchResult[] = [
   { id: "9", title: "Enterprise Applications", description: "Mission-critical applications for large-scale operations", type: "service", url: "/services/enterprise-applications", keywords: ["enterprise", "application", "business"] },
   { id: "10", title: "SaaS Product Development", description: "From MVP to scaling with recurring revenue models", type: "service", url: "/services/saas-product-development", keywords: ["saas", "product", "development", "startup"] },
   // Pages
-  { id: "p1", title: "Home", description: "Welcome to Nexova Tech Zone", type: "page", url: "/", keywords: ["home"] },
+  { id: "p1", title: "Home", description: "Welcome to Nexova TechZone", type: "page", url: "/", keywords: ["home"] },
   { id: "p2", title: "Services", description: "Explore our comprehensive service offerings", type: "page", url: "/services", keywords: ["services", "offerings"] },
   { id: "p3", title: "About Us", description: "Learn about our company and team", type: "page", url: "/about", keywords: ["about", "company", "team"] },
   { id: "p4", title: "Products", description: "Our innovative product solutions", type: "page", url: "/products", keywords: ["products", "solutions"] },

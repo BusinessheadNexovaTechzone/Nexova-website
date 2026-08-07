@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import { Eye, Flag } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
 
 const highlights = [
@@ -15,14 +16,14 @@ export default function AboutPage() {
         <div className="mx-auto grid max-w-8xl items-start gap-10 px-4 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl font-extrabold text-navy md:text-6xl">
-              About <span className="text-gradient-red">Nexova Tech Zone</span>
+              About <span className="text-gradient-red">Nexova TechZone</span>
             </h1>
             <h2 className="mt-4 text-2xl font-semibold text-navy md:text-3xl">
               Your Trusted IT Services Company Driving Digital Innovation
             </h2>
             <div className="mx-auto mt-5 max-w-3xl space-y-4 text-base leading-relaxed text-foreground/80 lg:mx-0">
               <p>
-                Nexova Tech Zone is a trusted IT Services Company committed to helping businesses embrace digital transformation through innovative technology and strategic expertise. We deliver comprehensive IT Services and Consulting that enable organizations to improve operational efficiency, accelerate growth, and stay competitive in today&apos;s rapidly evolving digital landscape.
+                Nexova TechZone is a trusted IT Services Company committed to helping businesses embrace digital transformation through innovative technology and strategic expertise. We deliver comprehensive IT Services and Consulting that enable organizations to improve operational efficiency, accelerate growth, and stay competitive in today&apos;s rapidly evolving digital landscape.
               </p>
               <p>
                 Since our inception, we have partnered with startups, small and medium-sized businesses, and enterprises across various industries, providing customized IT Solutions that address unique business challenges and unlock new opportunities. Our customer-first approach, technical excellence, and commitment to quality make us a reliable technology partner for businesses worldwide.
@@ -41,7 +42,7 @@ export default function AboutPage() {
           <div className="overflow-hidden rounded-3xl border border-border bg-card shadow-[var(--shadow-card)]">
             <img
               src="/images/about-company.jpg"
-              alt="About Us visual for Nexova Tech Zone"
+              alt="About Us visual for Nexova TechZone"
               className="h-full w-full object-cover"
             />
           </div>
@@ -67,51 +68,75 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <center><section className="py-8 md:py-10 bg-accent/5">
-        <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-navy">Who We Are</h2>
-          <div className="mt-4 space-y-4 text-foreground px-40">
-            <p >
-              At Nexova Tech Zone, we believe technology should simplify business, not complicate it. Our experienced consultants, developers, engineers, and digital specialists work together to deliver innovative, secure, and scalable solutions tailored to every client's business objectives.
+      <section className="py-10 md:py-12 bg-accent/5">
+        <div className="mx-auto max-w-6xl px-6 sm:px-8 lg:px-10 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-black">
+            Who <span className="text-gradient-red">We Are</span>
+          </h2>
+          <div className="mt-6 space-y-5 text-foreground text-base leading-relaxed">
+            <p>
+              At Nexova TechZone, we believe technology should simplify business, not complicate it. Our experienced consultants, developers, engineers, and digital specialists work together to deliver innovative, secure, and scalable solutions tailored to every client's business objectives.
             </p>
             <p>
               By combining industry knowledge with the latest technologies, we help organizations streamline operations, improve customer experiences, and accelerate digital transformation with confidence.
             </p>
           </div>
         </div>
-      </section></center>
+      </section>
 
-      <center><section className="py-8 md:py-10">
-        <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-navy">Introducing Nexova Tech Zone</h2>
-          <h3 className="mt-4 text-2xl font-semibold text-navy">Innovative IT Solutions. Trusted Technology Partner.</h3>
-          <div className="mt-4 space-y-4 text-foreground px-40">
+      <section className="py-10 md:py-12">
+        <div className="mx-auto max-w-6xl px-6 sm:px-8 lg:px-10 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-black">
+            Introducing <span className="text-gradient-red">Nexova TechZone</span>
+          </h2>
+          <h3 className="mt-5 text-2xl font-semibold text-black/90">
+            Innovative IT Solutions. Trusted Technology Partner.
+          </h3>
+          <div className="mt-6 space-y-5 text-foreground text-base leading-relaxed">
             <p>
-              At Nexova Tech Zone, we deliver innovative IT Services and Consulting that help businesses transform, grow, and stay ahead in a digital-first world. As a trusted IT Services Company, we provide secure, scalable, and future-ready IT Solutions tailored to your business needs.
+              At Nexova TechZone, we deliver innovative IT Services and Consulting that help businesses transform, grow, and stay ahead in a digital-first world. As a trusted IT Services Company, we provide secure, scalable, and future-ready IT Solutions tailored to your business needs.
             </p>
             <p>
               Backed by ISO 9001:2015 and ISO 27001 certifications, we are committed to quality, security, and excellence in every solution we deliver. From software development and AI automation to cloud infrastructure, IT staffing, digital marketing, and cyber security, we empower businesses with technology that drives lasting success.
             </p>
             <p>
-              Partner with Nexova Tech Zone and build the future with confidence.
+              Partner with Nexova TechZone and build the future with confidence.
             </p>
           </div>
         </div>
-      </section></center>
+      </section>
 
-      <section className="py-8 md:py-10 bg-surface">
+      <section className="py-10 md:py-12 bg-surface">
         <div className="mx-auto max-w-8xl px-6 sm:px-8 lg:px-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-navy text-center">Your Success is Our Priority</h2>
-          <div className="mt-6 grid gap-6 md:grid-cols-2">
-            <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-              <h3 className="text-xl font-semibold text-navy mb-4">Our Mission</h3>
-              <p className="text-foreground">
+          <h2 className="text-3xl md:text-4xl font-bold text-black text-center">
+            Your Success is <span className="text-gradient-red">Our Priority</span>
+          </h2>
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            <div className="rounded-[2rem] border border-border bg-slate-950 p-10 text-white shadow-[var(--shadow-soft)]">
+              <div className="mb-6 flex items-center gap-4">
+                <span className="flex h-16 w-16 items-center justify-center rounded-3xl bg-white/10">
+                  <Flag className="h-7 w-7" />
+                </span>
+                <div>
+                  <p className="text-sm uppercase tracking-[0.2em] text-white/60">Mission</p>
+                  <h3 className="mt-2 text-2xl font-semibold">Our Mission</h3>
+                </div>
+              </div>
+              <p className="text-base leading-relaxed text-white/80">
                 To empower businesses through innovative IT Services and Consulting by delivering reliable, scalable, and future-ready IT Solutions that drive sustainable growth and long-term success.
               </p>
             </div>
-            <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-              <h3 className="text-xl font-semibold text-navy mb-4">Our Vision</h3>
-              <p className="text-foreground">
+            <div className="rounded-[2rem] border border-border bg-primary p-10 text-white shadow-[var(--shadow-soft)]">
+              <div className="mb-6 flex items-center gap-4">
+                <span className="flex h-16 w-16 items-center justify-center rounded-3xl bg-white/10">
+                  <Eye className="h-7 w-7" />
+                </span>
+                <div>
+                  <p className="text-sm uppercase tracking-[0.2em] text-white/70">Vision</p>
+                  <h3 className="mt-2 text-2xl font-semibold">Our Vision</h3>
+                </div>
+              </div>
+              <p className="text-base leading-relaxed text-white/90">
                 To become a globally recognized IT Services Company, helping organizations transform their businesses through innovation, technology excellence, and trusted partnerships.
               </p>
             </div>
