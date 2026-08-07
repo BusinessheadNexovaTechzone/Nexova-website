@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import Link from "next/link";
 import { Eye, Flag } from "lucide-react";
 import { Layout } from "@/components/layout/Layout";
@@ -85,23 +86,39 @@ export default function AboutPage() {
       </section>
 
       <section className="py-10 md:py-12">
-        <div className="mx-auto max-w-6xl px-6 sm:px-8 lg:px-10 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-black">
-            Introducing <span className="text-gradient-red">Nexova TechZone</span>
-          </h2>
-          <h3 className="mt-5 text-2xl font-semibold text-black/90">
-            Innovative IT Solutions. Trusted Technology Partner.
-          </h3>
-          <div className="mt-6 space-y-5 text-foreground text-base leading-relaxed">
-            <p>
-              At Nexova TechZone, we deliver innovative IT Services and Consulting that help businesses transform, grow, and stay ahead in a digital-first world. As a trusted IT Services Company, we provide secure, scalable, and future-ready IT Solutions tailored to your business needs.
-            </p>
-            <p>
-              Backed by ISO 9001:2015 and ISO 27001 certifications, we are committed to quality, security, and excellence in every solution we deliver. From software development and AI automation to cloud infrastructure, IT staffing, digital marketing, and cyber security, we empower businesses with technology that drives lasting success.
-            </p>
-            <p>
-              Partner with Nexova TechZone and build the future with confidence.
-            </p>
+        <div className="mx-auto grid max-w-6xl gap-12 px-6 sm:px-8 lg:grid-cols-[0.95fr_0.9fr] lg:px-10 items-stretch">
+          <div className="flex min-h-[440px] flex-col justify-center lg:min-h-[520px]">
+            <div className="space-y-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-black">
+                Introducing <span className="text-gradient-red">Nexova TechZone</span>
+              </h2>
+              <h3 className="text-2xl font-semibold text-black/90">
+                Innovative IT Solutions. Trusted Technology Partner.
+              </h3>
+              <div className="space-y-5 text-foreground text-base leading-relaxed">
+                <p>
+                  At Nexova TechZone, we deliver innovative IT Services and Consulting that help businesses transform, grow, and stay ahead in a digital-first world. As a trusted IT Services Company, we provide secure, scalable, and future-ready IT Solutions tailored to your business needs.
+                </p>
+                <p>
+                  Backed by ISO 9001:2015 and ISO 27001 certifications, we are committed to quality, security, and excellence in every solution we deliver. From software development and AI automation to cloud infrastructure, IT staffing, digital marketing, and cyber security, we empower businesses with technology that drives lasting success.
+                </p>
+                <p>
+                  Partner with Nexova TechZone and build the future with confidence.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex min-h-[440px] items-center justify-center lg:min-h-[520px]">
+            <div className="relative h-full w-full max-w-xl overflow-hidden rounded-3xl border border-border bg-white shadow-[var(--shadow-soft)]">
+              <Image
+                src="/images/iso-cert.png"
+                alt="ISO Certificate"
+                width={960}
+                height={960}
+                className="h-full w-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>

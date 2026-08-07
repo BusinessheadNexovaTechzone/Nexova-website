@@ -2,8 +2,26 @@ import { Layout } from "@/components/layout/Layout";
 import { ServiceHero } from "@/components/ui/service-hero";
 import { Section, SectionHeading } from "@/components/ui/section-shell";
 import { CtaBanner } from "@/components/ui/cta-banner";
+import { Server, HeartPulse, Landmark, CreditCard, ShoppingBag, Factory, Truck, GraduationCap, Wifi, Film, Building2, Rocket, Cloud } from "lucide-react";
 
-export default function ContractITStaffingPage() {
+const industries = [
+  { title: "Information Technology", icon: Server },
+  { title: "Healthcare", icon: HeartPulse },
+  { title: "Banking & Financial Services", icon: Landmark },
+  { title: "FinTech", icon: CreditCard },
+  { title: "E-commerce", icon: ShoppingBag },
+  { title: "Retail", icon: ShoppingBag },
+  { title: "Manufacturing", icon: Factory },
+  { title: "Logistics", icon: Truck },
+  { title: "Education", icon: GraduationCap },
+  { title: "Telecommunications", icon: Wifi },
+  { title: "Media & Entertainment", icon: Film },
+  { title: "Government", icon: Building2 },
+  { title: "Startups", icon: Rocket },
+  { title: "SaaS Companies", icon: Cloud },
+];
+
+export default function ITInfrastructureservicesPage() {
   return (
     <Layout>
       <ServiceHero
@@ -243,27 +261,20 @@ export default function ContractITStaffingPage() {
           redPart="Serve"
           description="We provide IT staffing services across multiple industries, including technology, healthcare, finance, retail, logistics, education, and more."
         />
-        <div className="rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-          <ul className="grid gap-3 text-foreground/90 sm:grid-cols-2 lg:grid-cols-3 list-disc list-inside">
-            {[
-              "Information Technology",
-              "Healthcare",
-              "Banking & Financial Services",
-              "FinTech",
-              "E-commerce",
-              "Retail",
-              "Manufacturing",
-              "Logistics",
-              "Education",
-              "Telecommunications",
-              "Media & Entertainment",
-              "Government",
-              "Startups",
-              "SaaS Companies",
-            ].map((industry) => (
-              <li key={industry}>{industry}</li>
-            ))}
-          </ul>
+        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {industries.map(({ title, icon: Icon }) => (
+            <div
+              key={title}
+              className="group relative overflow-hidden rounded-3xl border border-border bg-card/80 p-5 shadow-[0_24px_80px_-38px_rgba(15,23,42,0.16)] transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:border-primary/40 hover:bg-gradient-to-br hover:from-primary/10 hover:via-white/70 hover:to-slate-100/40"
+            >
+              <div className="relative z-10 flex items-center gap-4">
+                <div className="inline-flex h-12 w-12 items-center justify-center rounded-3xl bg-primary/10 text-primary shadow-[0_18px_60px_-30px_rgba(59,130,246,0.35)] transition-all duration-500 group-hover:scale-105 group-hover:rotate-12">
+                  <Icon className="h-6 w-6" />
+                </div>
+                <span className="font-medium text-foreground">{title}</span>
+              </div>
+            </div>
+          ))}
         </div>
       </Section>
 
@@ -287,7 +298,7 @@ export default function ContractITStaffingPage() {
         key={step}
         className="rounded-2xl border border-border bg-card px-6 py-4 shadow-[var(--shadow-soft)] transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
       >
-        <h3 className="text-lg font-semibold text-navy">
+        <h3 className="text-lg font-semibold text-primary">
           {index + 1}. {step}
         </h3>
       </div>
@@ -330,3 +341,4 @@ export default function ContractITStaffingPage() {
     </Layout>
   );
 }
+
