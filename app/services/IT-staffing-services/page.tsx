@@ -37,7 +37,7 @@ export default function ITInfrastructureservicesPage() {
         visual={
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-[var(--shadow-card)]">
             <img
-              src="/assets/contract-staffing.png"
+              src="/assets/it-staffing.jpeg"
               alt="IT staffing services"
               loading="lazy"
               className="h-full w-full object-cover"

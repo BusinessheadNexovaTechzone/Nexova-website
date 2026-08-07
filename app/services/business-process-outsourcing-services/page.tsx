@@ -20,7 +20,7 @@ export default function businessprocessoutsourcingservicesPage() {
         visual={
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-[var(--shadow-card)]">
             <img
-              src="/assets/workforce-outsourcing.png"
+              src="/assets/bpo-service.png"
               alt="Business process outsourcing services"
               loading="lazy"
               className="h-full w-full object-cover"

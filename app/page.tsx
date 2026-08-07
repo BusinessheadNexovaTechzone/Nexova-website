@@ -219,7 +219,7 @@ export default function HomePage() {
   </span>
 </h1>
               <p className="mt-6 max-w-lg text-base font-normal font-sans leading-relaxed text-muted-foreground md:mt-8 md:text-lg md:leading-relaxed">
-                Nexova TechZone is a leading IT Services Company delivering innovative IT Solutions that help businesses accelerate digital transformation. We specialize in software development, IT staffing, AI automation, digital marketing, cloud infrastructure, and cyber security services. Our expert team combines technology, innovation, and industry expertise to provide reliable IT Services and Consulting that drive measurable business growth.
+                NexovaTechZone is a leading IT Services Company delivering innovative IT Solutions that help businesses accelerate digital transformation. We specialize in software development, IT staffing, AI automation, digital marketing, cloud infrastructure, and cyber security services. Our expert team combines technology, innovation, and industry expertise to provide reliable IT Services and Consulting that drive measurable business growth.
               </p>
               <div className="mt-8 flex flex-wrap gap-4 md:gap-3">
                 <Link href="/contact" className="btn-motion group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-red)] hover:-translate-y-1 hover:shadow-[0_20px_60px_-12px_oklch(0.55_0.22_25_/_0.5)]">
@@ -250,10 +250,10 @@ export default function HomePage() {
       {/* About Nexova Section */}
       <Section className="py-0" containerClassName="max-w-full px-0">
         <div className="grid w-full items-center gap-10 lg:grid-cols-[1.05fr_0.95fr]">
-          <div className="overflow-hidden rounded-9xl border border-border bg-card shadow-[var(--shadow-card)] min-h-[360px] md:min-h-[420px] lg:min-h-[480px]">
+          <div className="overflow-hidden rounded-9xl border border-border bg-card shadow-[var(--shadow-card)] min-h-[280px] md:min-h-[320px] lg:min-h-[380px]">
             <img
-              src="/assets/remote-developers.png"
-              alt="Business technology illustration"
+              src="/assets/images-12.jpeg"
+              alt="Network sphere technology illustration"
               className="h-full w-full object-cover"
             />
           </div>

@@ -40,7 +40,7 @@ export default function DigitalmarketingservicesPage() {
         visual={
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-[var(--shadow-card)]">
             <img
-              src="/assets/hero-monitor.jpg"
+              src="/assets/images-15.jpeg"
               alt="Digital marketing services"
               loading="lazy"
               className="h-full w-full object-cover"
