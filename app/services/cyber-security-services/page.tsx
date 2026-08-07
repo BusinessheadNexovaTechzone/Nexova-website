@@ -3,7 +3,7 @@ import { ServiceHero } from "@/components/ui/service-hero";
 import { Section, SectionHeading } from "@/components/ui/section-shell";
 import { CtaBanner } from "@/components/ui/cta-banner";
 
-export default function SecurityAuditsPage() {
+export default function cybersecurityservicesPage() {
   return (
     <Layout>
       <ServiceHero

@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import { Layout } from "@/components/layout/Layout";
 import { ArrowRight, Award, Users, Zap } from "lucide-react";
 
@@ -17,34 +18,34 @@ export default function AboutNexovaPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 mb-16">
-            <div>
-              <h2 className="text-2xl font-bold text-foreground mb-4">Our Story</h2>
-              <p className="text-foreground/80 mb-4 leading-relaxed">
-                Nexova TechZone was founded with a vision to transform businesses through cutting-edge technology and innovative solutions. Since our inception, we've been committed to delivering excellence and driving digital transformation across industries.
-              </p>
-              <p className="text-foreground/80 mb-4 leading-relaxed">
-                Our journey has been marked by continuous innovation, strategic partnerships, and a deep commitment to our clients' success. We believe in creating technology solutions that not only meet today's challenges but anticipate tomorrow's opportunities.
-              </p>
+          <div className="grid md:grid-cols-2 gap-12 mb-16 items-center">
+            <div className="flex justify-center">
+              <div className="relative w-full max-w-xl overflow-hidden rounded-3xl border border-border bg-white shadow-[var(--shadow-soft)]">
+                <Image
+                  src="/images/iso-cert.png"
+                  alt="ISO Certificate"
+                  width={960}
+                  height={720}
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
 
-            <div className="bg-surface rounded-lg p-8 border border-border">
-              <h3 className="text-xl font-bold text-navy mb-4">Key Highlights</h3>
-              <ul className="space-y-3">
-                {[
-                  "Founded in 2009 with a mission to innovate",
-                  "Serving 500+ clients globally",
-                  "Team of 200+ skilled professionals",
-                  "Offices in 4 major countries",
-                  "Certified and award-winning team",
-                  "ISO 9001:2015 and ISO 27001 certified",
-                ].map((highlight, idx) => (
-                  <li key={idx} className="flex items-start gap-3">
-                    <ArrowRight className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                    <span className="text-foreground/80">{highlight}</span>
-                  </li>
-                ))}
-              </ul>
+            <div className="space-y-6">
+              <p className="text-sm uppercase tracking-[0.3em] text-primary font-semibold">ISO Certified</p>
+              <h2 className="text-4xl md:text-5xl font-bold text-navy">Introducing Nexova TechZone</h2>
+              <p className="text-lg font-semibold text-foreground">Innovative IT Solutions. Trusted Technology Partner.</p>
+              <div className="space-y-4 text-foreground/80 leading-relaxed">
+                <p>
+                  At Nexova TechZone, we deliver innovative IT Services and Consulting that help businesses transform, grow, and stay ahead in a digital-first world. As a trusted IT Services Company, we provide secure, scalable, and future-ready IT Solutions tailored to your business needs.
+                </p>
+                <p>
+                  Backed by ISO 9001:2015 and ISO 27001 certifications, we are committed to quality, security, and excellence in every solution we deliver. From software development and AI automation to cloud infrastructure, IT staffing, digital marketing, and cybersecurity, we empower businesses with technology that drives lasting success.
+                </p>
+                <p>
+                  Partner with Nexova TechZone and build the future with confidence.
+                </p>
+              </div>
             </div>
           </div>
 

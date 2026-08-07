@@ -38,8 +38,12 @@ export default function ProductPage() {
         <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.18em] text-primary">Flagship Product</p>
-            <h1 className="mt-3 text-4xl font-extrabold text-navy md:text-6xl">Meet <span className="text-gradient-red">Foodzo</span></h1>
-            <h3 className="mt-4 text-xl font-semibold text-foreground/90 md:text-2xl">The Complete Food & Beverage SaaS Platform</h3>
+            <h1 className="mt-3 text-4xl font-extrabold text-black md:text-6xl">
+              Meet <span className="text-primary">Foodzo</span>
+            </h1>
+            <h3 className="mt-4 text-xl font-semibold text-primary md:text-2xl">
+              The Complete Food & Beverage SaaS Platform
+            </h3>
             <p className="mt-6 max-w-2xl text-base leading-8 text-foreground/85">
               Foodzo is Nexova TechZone's flagship Food & Beverage SaaS solution, designed to simplify and streamline restaurant operations. Built for scalability and performance, Foodzo empowers restaurants, cloud kitchens, cafés, and multi-location food businesses with an all-in-one platform to manage orders, operations, deliveries, and customer engagement.
             </p>
@@ -57,8 +61,8 @@ export default function ProductPage() {
       <Section className="pt-10">
   {/* Key Features */}
   <div>
-    <h2 className="mb-8 text-3xl font-bold text-navy">
-      Key Features
+    <h2 className="mb-8 text-3xl font-bold text-black">
+      Key <span className="text-primary">Features</span>
     </h2>
 
     <div className="grid gap-6 lg:grid-cols-2">
@@ -66,23 +70,23 @@ export default function ProductPage() {
       <div className="space-y-4">
         {features.slice(0, 3).map((feature) => (
           <div
-  key={feature.title}
-  className="flex min-h-[150px] rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
->
-  <div className="flex items-start gap-3">
-    <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-primary" />
+            key={feature.title}
+            className="flex min-h-[150px] rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)] transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+          >
+            <div className="flex items-start gap-3">
+              <CheckCircle2 className="mt-1 h-5 w-5 shrink-0 text-primary" />
 
-    <div className="flex flex-col">
-      <h3 className="text-lg font-semibold text-navy">
-        {feature.title}
-      </h3>
+              <div className="flex flex-col">
+                <h3 className="text-lg font-semibold text-primary">
+                  {feature.title}
+                </h3>
 
-      <p className="mt-2 text-foreground/80 leading-7">
-        {feature.description}
-      </p>
-    </div>
-  </div>
-</div>
+                <p className="mt-2 text-foreground/80 leading-7">
+                  {feature.description}
+                </p>
+              </div>
+            </div>
+          </div>
         ))}
       </div>
 
@@ -96,7 +100,7 @@ export default function ProductPage() {
             <div className="flex items-start gap-3">
               <CheckCircle2 className="mt-1 h-5 w-5 text-primary" />
               <div>
-                <h3 className="text-lg font-semibold text-navy">
+                <h3 className="text-lg font-semibold text-primary">
                   {feature.title}
                 </h3>
                 <p className="mt-2 text-foreground/80">
@@ -112,8 +116,8 @@ export default function ProductPage() {
 
   {/* Why Choose Foodzo */}
   <div className="mt-16 rounded-3xl border border-border bg-slate-50 p-10 shadow-[var(--shadow-soft)]">
-    <h2 className="text-3xl font-bold text-navy">
-      Why Choose Foodzo?
+    <h2 className="text-3xl font-bold text-black">
+      Why Choose <span className="text-primary">Foodzo?</span>
     </h2>
 
     <p className="mt-6 text-base leading-8 text-foreground/85">

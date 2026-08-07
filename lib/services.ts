@@ -35,7 +35,7 @@ export const megaMenuServices = [
     items: [
       {
         label: "IT Infrastructure & Cloud",
-        to: "/services/cloud-infrastructure",
+        to: "/services/IT-Infrastructure-services",
       },
     ],
   },
@@ -43,7 +43,7 @@ export const megaMenuServices = [
     items: [
       {
         label: "IT Staffing & Workforce",
-        to: "/services/contract-it-staffing",
+        to: "/services/IT-staffing-services",
       },
     ],
   },
@@ -51,7 +51,7 @@ export const megaMenuServices = [
     items: [
       {
         label: "Software Development",
-        to: "/services/custom-software",
+        to: "/services/software-development",
       },
     ],
   },
@@ -59,7 +59,7 @@ export const megaMenuServices = [
     items: [
       {
         label: "Digital Services",
-        to: "/services/website-development",
+        to: "/services/Digital-marketing-services",
       },
     ],
   },
@@ -67,7 +67,7 @@ export const megaMenuServices = [
     items: [
       {
         label: "AI & Automation",
-        to: "/services/ai-assistants",
+        to: "/services/AI-automation-services",
       },
     ],
   },
@@ -75,7 +75,7 @@ export const megaMenuServices = [
     items: [
       {
         label: "Cybersecurity",
-        to: "/services/security-audits",
+        to: "/services/cyber-security-services",
       },
     ],
   },
@@ -83,7 +83,7 @@ export const megaMenuServices = [
     items: [
       {
         label: "BPO Services",
-        to: "/services/bpo-services",
+        to: "/services/business-process-outsourcing-services",
       },
     ],
   },
@@ -125,7 +125,7 @@ export const navLinks = [
   { label: "Home", to: "/" },
   { label: "About Us", to: "/about" },
   { label: "Services", to: "/services" },
-  { label: "Products", to: "/product" },
+  { label: "Products", to: "/products" },
   // { label: "Industries", to: "/industries" },
   // { label: "Portfolio", to: "/portfolio" },
   { label: "Testimonials", to: "/testimonials" },

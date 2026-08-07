@@ -4,11 +4,27 @@ import { Section, SectionHeading } from "@/components/ui/section-shell";
 import { CtaBanner } from "@/components/ui/cta-banner";
 import { motion } from "framer-motion";
 import ProcessGridClient from "@/components/ui/process-grid-client";
+import { HeartPulse, GraduationCap, Building2, Factory, ShoppingBag, Landmark, UtensilsCrossed, Hammer, Monitor, Truck, Rocket, BriefcaseBusiness } from "lucide-react";
+
+const industries = [
+  { title: "Healthcare", icon: HeartPulse },
+  { title: "Education", icon: GraduationCap },
+  { title: "Real Estate", icon: Building2 },
+  { title: "Manufacturing", icon: Factory },
+  { title: "Retail", icon: ShoppingBag },
+  { title: "Finance", icon: Landmark },
+  { title: "Hospitality", icon: UtensilsCrossed },
+  { title: "Construction", icon: Hammer },
+  { title: "Technology", icon: Monitor },
+  { title: "Logistics", icon: Truck },
+  { title: "Startups", icon: Rocket },
+  { title: "Professional Services", icon: BriefcaseBusiness },
+];
 
 // Client-only process grid: renders the six process cards with motion.
 // ProcessGridClient is now provided as a separate client component.
 
-export default function WebsiteDevelopmentPage() {
+export default function DigitalmarketingservicesPage() {
   return (
     <Layout>
       <ServiceHero
@@ -309,25 +325,20 @@ export default function WebsiteDevelopmentPage() {
           description="We provide digital solutions for businesses across multiple industries."
           titleClassName="text-2xl font-extrabold tracking-tight leading-tight text-navy sm:text-3xl md:text-4xl lg:text-5xl"
         />
-        <div className="mt-10 rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-soft)]">
-          <ul className="grid gap-3 text-foreground/90 sm:grid-cols-2 lg:grid-cols-3 list-disc list-inside">
-            {[
-              "Healthcare",
-              "Education",
-              "Real Estate",
-              "Manufacturing",
-              "Retail",
-              "Finance",
-              "Hospitality",
-              "Construction",
-              "Technology",
-              "Logistics",
-              "Startups",
-              "Professional Services",
-            ].map((industry) => (
-              <li key={industry}>{industry}</li>
-            ))}
-          </ul>
+        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {industries.map(({ title, icon: Icon }) => (
+            <div
+              key={title}
+              className="group relative overflow-hidden rounded-3xl border border-border bg-card/80 p-5 shadow-[0_24px_80px_-38px_rgba(15,23,42,0.16)] transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl hover:border-primary/40 hover:bg-gradient-to-br hover:from-primary/10 hover:via-white/70 hover:to-slate-100/40"
+            >
+              <div className="relative z-10 flex items-center gap-4">
+                <div className="inline-flex h-12 w-12 items-center justify-center rounded-3xl bg-primary/10 text-primary shadow-[0_18px_60px_-30px_rgba(59,130,246,0.35)] transition-all duration-500 group-hover:scale-105 group-hover:rotate-12">
+                  <Icon className="h-6 w-6" />
+                </div>
+                <span className="font-medium text-foreground">{title}</span>
+              </div>
+            </div>
+          ))}
         </div>
       </Section>
 

@@ -149,7 +149,7 @@ export default function CloudInfrastructurePage() {
             transition={{ duration: reducedMotion ? 0 : 0.65, ease: "easeOut" }}
             className="group flex h-full flex-col rounded-3xl border border-primary/20 bg-card/80 backdrop-blur-xl p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
           >
-            <h4 className="text-xl font-semibold text-navy">Migration Services</h4>
+            <h4 className="text-xl font-semibold text-primary">Migration Services</h4>
             <ul className="mt-5 grid gap-3">
               <li className="flex items-start gap-3 rounded-3xl bg-white/5 p-4 transition-all duration-300 hover:bg-primary/10">
                 <CheckCircle2 className="mt-1 h-4 w-4 text-primary" />
@@ -189,7 +189,7 @@ export default function CloudInfrastructurePage() {
             transition={{ duration: reducedMotion ? 0 : 0.65, ease: "easeOut" }}
             className="group flex h-full flex-col rounded-3xl border border-primary/20 bg-card/80 backdrop-blur-xl p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
           >
-            <h4 className="text-xl font-semibold text-navy">Why Choose Us</h4>
+            <h4 className="text-xl font-semibold text-primary">Why Choose Us</h4>
             <ul className="mt-5 grid gap-3">
               <li className="flex items-start gap-3 rounded-3xl bg-white/5 p-4 transition-all duration-300 hover:bg-primary/10">
                 <CheckCircle2 className="mt-1 h-4 w-4 text-primary" />
@@ -239,7 +239,7 @@ export default function CloudInfrastructurePage() {
             transition={{ duration: reducedMotion ? 0 : 0.7, ease: "easeOut" }}
             className="group flex h-full flex-col rounded-3xl border border-primary/20 bg-card/80 backdrop-blur-xl p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
           >
-            <h4 className="text-xl font-semibold text-navy">Server Management Includes</h4>
+            <h4 className="text-xl font-semibold text-primary">Server Management Includes</h4>
             <ul className="mt-5 grid gap-3">
               <li className="flex items-start gap-3 rounded-3xl bg-white/5 p-4 transition-all duration-300 hover:bg-primary/10">
                 <CheckCircle2 className="mt-1 h-4 w-4 text-primary" />
@@ -283,7 +283,7 @@ export default function CloudInfrastructurePage() {
             transition={{ duration: reducedMotion ? 0 : 0.7, ease: "easeOut" }}
             className="group flex h-full flex-col rounded-3xl border border-primary/20 bg-card/80 backdrop-blur-xl p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
           >
-            <h4 className="text-xl font-semibold text-navy">Benefits</h4>
+            <h4 className="text-xl font-semibold text-primary">Benefits</h4>
             <ul className="mt-5 grid gap-3">
               <li className="flex items-start gap-3 rounded-3xl bg-white/5 p-4 transition-all duration-300 hover:bg-primary/10">
                 <CheckCircle2 className="mt-1 h-4 w-4 text-primary" />
@@ -331,7 +331,7 @@ export default function CloudInfrastructurePage() {
             transition={{ duration: reducedMotion ? 0 : 0.65, ease: "easeOut" }}
             className="group flex h-full flex-col rounded-3xl border border-primary/20 bg-card/80 backdrop-blur-xl p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
           >
-            <h4 className="text-xl font-semibold text-navy">Services Include</h4>
+            <h4 className="text-xl font-semibold text-primary">Services Include</h4>
             <ul className="mt-5 grid gap-3">
               <li className="flex items-start gap-3 rounded-3xl bg-white/5 p-4 transition-all duration-300 hover:bg-primary/10">
                 <CheckCircle2 className="mt-1 h-4 w-4 text-primary" />
@@ -375,7 +375,7 @@ export default function CloudInfrastructurePage() {
             transition={{ duration: reducedMotion ? 0 : 0.65, ease: "easeOut" }}
             className="group flex h-full flex-col rounded-3xl border border-primary/20 bg-card/80 backdrop-blur-xl p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
           >
-            <h4 className="text-xl font-semibold text-navy">Why Businesses Choose Managed IT</h4>
+            <h4 className="text-xl font-semibold text-primary">Why Businesses Choose Managed IT</h4>
             <ul className="mt-5 grid gap-3">
               <li className="flex items-start gap-3 rounded-3xl bg-white/5 p-4 transition-all duration-300 hover:bg-primary/10">
                 <CheckCircle2 className="mt-1 h-4 w-4 text-primary" />
@@ -420,7 +420,7 @@ export default function CloudInfrastructurePage() {
             transition={{ duration: reducedMotion ? 0 : 0.65, ease: "easeOut" }}
             className="group flex h-full flex-col rounded-3xl border border-primary/20 bg-card/80 backdrop-blur-xl p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
           >
-            <h4 className="text-xl font-semibold text-navy">Consulting Services</h4>
+            <h4 className="text-xl font-semibold text-primary">Consulting Services</h4>
             <ul className="mt-5 grid gap-3">
               <li className="flex items-start gap-3 rounded-3xl bg-white/5 p-4 transition-all duration-300 hover:bg-primary/10">
                 <CheckCircle2 className="mt-1 h-4 w-4 text-primary" />
@@ -464,7 +464,7 @@ export default function CloudInfrastructurePage() {
             transition={{ duration: reducedMotion ? 0 : 0.65, ease: "easeOut" }}
             className="group flex h-full flex-col rounded-3xl border border-primary/20 bg-card/80 backdrop-blur-xl p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
           >
-            <h4 className="text-xl font-semibold text-navy">Benefits</h4>
+            <h4 className="text-xl font-semibold text-primary">Benefits</h4>
             <ul className="mt-5 grid gap-3">
               <li className="flex items-start gap-3 rounded-3xl bg-white/5 p-4 transition-all duration-300 hover:bg-primary/10">
                 <CheckCircle2 className="mt-1 h-4 w-4 text-primary" />
@@ -512,7 +512,7 @@ export default function CloudInfrastructurePage() {
             transition={{ duration: reducedMotion ? 0 : 0.65, ease: "easeOut" }}
             className="group flex h-full flex-col rounded-3xl border border-primary/20 bg-card/80 backdrop-blur-xl p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
           >
-            <h4 className="text-xl font-semibold text-navy">Digital Transformation Services</h4>
+            <h4 className="text-xl font-semibold text-primary">Digital Transformation Services</h4>
             <ul className="mt-5 grid gap-3">
               <li className="flex items-start gap-3 rounded-3xl bg-white/5 p-4 transition-all duration-300 hover:bg-primary/10">
                 <CheckCircle2 className="mt-1 h-4 w-4 text-primary" />
@@ -556,7 +556,7 @@ export default function CloudInfrastructurePage() {
             transition={{ duration: reducedMotion ? 0 : 0.65, ease: "easeOut" }}
             className="group flex h-full flex-col rounded-3xl border border-primary/20 bg-card/80 backdrop-blur-xl p-8 shadow-xl transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-2xl"
           >
-            <h4 className="text-xl font-semibold text-navy">Benefits</h4>
+            <h4 className="text-xl font-semibold text-primary">Benefits</h4>
             <ul className="mt-5 grid gap-3">
               <li className="flex items-start gap-3 rounded-3xl bg-white/5 p-4 transition-all duration-300 hover:bg-primary/10">
                 <CheckCircle2 className="mt-1 h-4 w-4 text-primary" />
@@ -683,3 +683,5 @@ export default function CloudInfrastructurePage() {
     </Layout>
   );
 }
+
+
