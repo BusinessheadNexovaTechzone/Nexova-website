@@ -50,7 +50,7 @@ export default function DigitalmarketingservicesPage() {
       />
 
       <div className="mb-10 text-center">
-        <h1 className="text-4xl font-black tracking-tight leading-none text-navy sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
+        <h1 className="text-3xl font-black tracking-tight leading-none text-navy sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
           <span className="text-navy">Website</span>{" "}
           <span className="text-gradient-red">Development</span>
         </h1>
