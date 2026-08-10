@@ -53,6 +53,11 @@ export default function RootLayout({
       className={`${plusJakartaSans.variable} ${inter.variable}`}
     >
       <head>
+        <title>IT Services Company | IT Services & Consulting | Nexova Tech Zone</title>
+        <meta
+          name="description"
+          content="Nexova Tech Zone is a trusted IT Services Company providing innovative IT Services and Consulting, software development, AI automation, cloud infrastructure, IT staffing, digital marketing, cyber security, and customized IT Solutions for businesses."
+        />
         {/* GOOGLE ANALYTICS */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-W45LYRHWTM"
@@ -101,7 +106,7 @@ export default function RootLayout({
             }(window, document, 'script',
             'https://connect.facebook.net/en_US/fbevents.js');
 
-            fbq('init', '2199917547514080');
+            fbq('init', '1986156378733572');
             fbq('track', 'PageView');
           `}
         </Script>
