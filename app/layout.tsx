@@ -24,16 +24,16 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
-  title: "Nexova Tech Zone - Strategic Software Engineering",
+  title: "IT Services Company | IT Services & Consulting | Nexova Tech Zone",
   description:
-    "We architect intelligent software, secure infrastructure, and high-impact digital experiences for ambitious enterprises.",
+    "Nexova Tech Zone is a trusted IT Services Company providing innovative IT Services and Consulting, software development, AI automation, cloud infrastructure, IT staffing, digital marketing, cyber security, and customized IT Solutions for businesses.",
   icons: {
     icon: "/assets/nexova-icon.jpeg",
   },
   openGraph: {
-    title: "Nexova Tech Zone",
+    title: "IT Services Company | IT Services & Consulting | Nexova Tech Zone",
     description:
-      "Bespoke software, cybersecurity, AI/ML, cloud, and mobile experiences built for scale.",
+      "Nexova Tech Zone is a trusted IT Services Company providing innovative IT Services and Consulting, software development, AI automation, cloud infrastructure, IT staffing, digital marketing, cyber security, and customized IT Solutions for businesses.",
     url: "https://www.nexovatechzone.com",
     type: "website",
   },
@@ -147,7 +147,7 @@ export default function RootLayout({
             height="1"
             width="1"
             style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=2199917547514080&ev=PageView&noscript=1"
+            src="https://www.facebook.com/tr?id=1986156378733572&ev=PageView&noscript=1"
             alt="meta-pixel"
           />
         </noscript>

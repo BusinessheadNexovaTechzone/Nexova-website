@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { createCanonicalMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = createCanonicalMetadata("/about/process");
+export const metadata: Metadata = createCanonicalMetadata("/about-us/why-choose");
 
-export default function AboutProcessLayout({
+export default function AboutWhyChooseLayout({
   children,
 }: {
   children: React.ReactNode;

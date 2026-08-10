@@ -13,7 +13,7 @@ interface MobileAboutMenuProps {
 export function MobileAboutMenu({ onClose }: MobileAboutMenuProps) {
   const [expandedCategory, setExpandedCategory] = useState<string | null>(null);
   const pathname = usePathname();
-  const isActive = pathname === "/about" || pathname.startsWith("/about/");
+  const isActive = pathname === "/about-us" || pathname.startsWith("/about-us/");
 
   return (
     <div className="space-y-2">

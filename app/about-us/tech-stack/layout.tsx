@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { createCanonicalMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = createCanonicalMetadata("/about/success-stories");
+export const metadata: Metadata = createCanonicalMetadata("/about-us/tech-stack");
 
-export default function AboutSuccessStoriesLayout({
+export default function AboutTechStackLayout({
   children,
 }: {
   children: React.ReactNode;

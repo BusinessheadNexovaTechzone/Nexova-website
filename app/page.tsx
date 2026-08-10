@@ -292,27 +292,27 @@ export default function HomePage() {
         />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             
-             <Link href="/services/cloud-infrastructure" className="group rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">
+            <Link href="/services/IT-Infrastructure-services" className="group rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">
             <span className="text-1xl font-bold text-navy transition-colors group-hover:text-primary">IT Infrastructure & Cloud Services</span>
           </Link>
-           <Link href="/services/contract-it-staffing" className="group rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">
+           <Link href="/services/IT-staffing-services" className="group rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">
             <span className="text-1xl font-bold text-navy transition-colors group-hover:text-primary">IT Staffing & Workforce Solutions</span>
           </Link>
-          <Link href="/services/custom-software" className="group rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">
+          <Link href="/services/software-development" className="group rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">
             <span className="text-1xl font-bold text-navy transition-colors group-hover:text-primary">Software Development</span>
           </Link>
          
-          <Link href="/services/digital-marketing" className="group rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">
+          <Link href="/services/Digital-marketing-services" className="group rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">
             <span className="text-1xl font-bold text-navy transition-colors group-hover:text-primary">Digital Marketing Services</span>
           </Link>
-          <Link href="/services/ai-assistants" className="group rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">
+          <Link href="/services/AI-automation-services" className="group rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">
             <span className="text-1xl font-bold text-navy transition-colors group-hover:text-primary">AI Automation Solutions</span>
           </Link>
-          <Link href="/services/cybersecurity" className="group rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">
+          <Link href="/services/cyber-security-services" className="group rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">
             <span className="text-1xl font-bold text-navy transition-colors group-hover:text-primary">Cyber Security Services</span>
           </Link>
           <div className="lg:col-span-3 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Link href="/services/bpo-services" className="group min-w-[18rem] rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">
+            <Link href="/services/business-process-outsourcing-services" className="group min-w-[18rem] rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">
               <span className="text-1xl font-bold text-navy transition-colors group-hover:text-primary">BPO Services</span>
             </Link>
             <Link href="/services/medical-coding-billing-services" className="group min-w-[18rem] rounded-3xl border border-border bg-card p-8 text-center shadow-[var(--shadow-soft)] transition-all hover:-translate-y-1 hover:border-primary/80 hover:shadow-[var(--shadow-card)]">

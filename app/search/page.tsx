@@ -30,7 +30,7 @@ const searchData: SearchResult[] = [
   // Pages
   { id: "p1", title: "Home", description: "Welcome to Nexova TechZone", type: "page", url: "/", keywords: ["home"] },
   { id: "p2", title: "Services", description: "Explore our comprehensive service offerings", type: "page", url: "/services", keywords: ["services", "offerings"] },
-  { id: "p3", title: "About Us", description: "Learn about our company and team", type: "page", url: "/about", keywords: ["about", "company", "team"] },
+  { id: "p3", title: "About Us", description: "Learn about our company and team", type: "page", url: "/about-us", keywords: ["about", "company", "team"] },
   { id: "p4", title: "Products", description: "Our innovative product solutions", type: "page", url: "/products", keywords: ["products", "solutions"] },
 ];
 

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { createCanonicalMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = createCanonicalMetadata("/about/leadership");
+export const metadata: Metadata = createCanonicalMetadata("/about-us/leadership");
 
 export default function AboutLeadershipLayout({
   children,

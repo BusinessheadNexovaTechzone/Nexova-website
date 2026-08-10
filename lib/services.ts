@@ -101,29 +101,29 @@ export const megaMenuAbout = [
   {
     title: "Company",
     items: [
-      { label: "About Nexova TechZone", to: "/about/about-nexova" },
-      { label: "Our Mission, Vision & Goals", to: "/about/mission-vision" },
-      { label: "Why Choose Nexova", to: "/about/why-choose" },
-      // { label: "Leadership Team", to: "/about/leadership" },
-      { label: "Our Process", to: "/about/process" },
-      { label: "Work Culture", to: "/about/culture" },
-      { label: "Strategic Partnerships", to: "/about/partnerships" },
+      { label: "About Nexova TechZone", to: "/about-us/about-nexova" },
+      { label: "Our Mission, Vision & Goals", to: "/about-us/mission-vision" },
+      { label: "Why Choose Nexova", to: "/about-us/why-choose" },
+      // { label: "Leadership Team", to: "/about-us/leadership" },
+      { label: "Our Process", to: "/about-us/process" },
+      { label: "Work Culture", to: "/about-us/culture" },
+      { label: "Strategic Partnerships", to: "/about-us/partnerships" },
     ],
   },
   {
     title: "Trust & Growth",
     items: [
-      { label: "Client Success Stories", to: "/about/success-stories" },
-      { label: "Technology Stack", to: "/about/tech-stack" },
-      { label: "Innovation & Research", to: "/about/innovation" },
-      { label: "Global Presence", to: "/about/global-presence" },
+      { label: "Client Success Stories", to: "/about-us/success-stories" },
+      { label: "Technology Stack", to: "/about-us/tech-stack" },
+      { label: "Innovation & Research", to: "/about-us/innovation" },
+      { label: "Global Presence", to: "/about-us/global-presence" },
     ],
   },
 ];
 
 export const navLinks = [
   { label: "Home", to: "/" },
-  { label: "About Us", to: "/about" },
+  { label: "About Us", to: "/about-us" },
   { label: "Services", to: "/services" },
   { label: "Products", to: "/products" },
   // { label: "Industries", to: "/industries" },

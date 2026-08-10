@@ -30,7 +30,7 @@ export function AboutMenu() {
       <button
         onClick={() => setOpen(!open)}
         className={`flex items-center gap-1 text-sm font-medium transition-colors duration-300 ${
-          open || pathname === "/about" || pathname.startsWith("/about/")
+          open || pathname === "/about-us" || pathname.startsWith("/about-us/")
             ? "text-primary"
             : "text-foreground/75 hover:text-primary"
         }`}
