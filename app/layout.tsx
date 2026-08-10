@@ -21,24 +21,61 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.nexovatechzone.com"),
-  alternates: {
-    canonical: "/",
+
+  title: {
+    default:
+      "IT Services Company | IT Services & Consulting | Nexova Tech Zone",
+    template: "%s | Nexova Tech Zone",
   },
-  title: "IT Services Company | IT Services & Consulting | Nexova Tech Zone",
+
   description:
     "Nexova Tech Zone is a trusted IT Services Company providing innovative IT Services and Consulting, software development, AI automation, cloud infrastructure, IT staffing, digital marketing, cyber security, and customized IT Solutions for businesses.",
+
+  alternates: {
+    canonical: "https://www.nexovatechzone.com/",
+  },
+
   icons: {
     icon: "/assets/nexova-icon.jpeg",
   },
+
   openGraph: {
-    title: "IT Services Company | IT Services & Consulting | Nexova Tech Zone",
+    title:
+      "IT Services Company | IT Services & Consulting | Nexova Tech Zone",
+
     description:
       "Nexova Tech Zone is a trusted IT Services Company providing innovative IT Services and Consulting, software development, AI automation, cloud infrastructure, IT staffing, digital marketing, cyber security, and customized IT Solutions for businesses.",
-    url: "https://www.nexovatechzone.com",
+
+    url: "https://www.nexovatechzone.com/",
+
+    siteName: "Nexova Tech Zone",
+
     type: "website",
+
+    locale: "en_US",
+
+    images: [
+      {
+        url: "/assets/nexova-og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Nexova Tech Zone",
+      },
+    ],
   },
+
   twitter: {
     card: "summary_large_image",
+    title:
+      "IT Services Company | IT Services & Consulting | Nexova Tech Zone",
+    description:
+      "Nexova Tech Zone is a trusted IT Services Company providing innovative IT Services and Consulting, software development, AI automation, cloud infrastructure, IT staffing, digital marketing, cyber security, and customized IT Solutions for businesses.",
+    images: ["/assets/nexova-og-image.jpg"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -62,11 +99,7 @@ export default function RootLayout({
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
-
-            function gtag() {
-              dataLayer.push(arguments);
-            }
-
+            function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-W45LYRHWTM');
           `}
