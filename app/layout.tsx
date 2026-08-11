@@ -24,9 +24,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
-  title: "IT Services Company | IT Services & Consulting | Nexova Tech Zone",
+  title: "Nexova techzone - Leading IT Services & Consulting Company | Nexova Techzone",
   description:
-    "Nexova Tech Zone is a trusted IT Services Company providing innovative IT Services and Consulting, software development, AI automation, cloud infrastructure, IT staffing, digital marketing, cyber security, and customized IT Solutions for businesses.",
+    "Nexova Techzone is a leading IT services company offering software development, AI automation, cloud solutions, IT staffing, digital marketing, and cybersecurity services.",
   icons: {
     icon: "/assets/nexova-icon.jpeg",
   },
@@ -53,10 +53,10 @@ export default function RootLayout({
       className={`${plusJakartaSans.variable} ${inter.variable}`}
     >
       <head>
-        <title>IT Services Company | IT Services & Consulting | Nexova Tech Zone</title>
+        <title>Nexova techZone - Leading IT Services & Consulting Company | Nexova Techzone</title>
         <meta
           name="description"
-          content="Nexova Tech Zone is a trusted IT Services Company providing innovative IT Services and Consulting, software development, AI automation, cloud infrastructure, IT staffing, digital marketing, cyber security, and customized IT Solutions for businesses."
+          content="Nexova Techzone is a leading IT services company offering software development, AI automation, cloud solutions, IT staffing, digital marketing, and cybersecurity services."
         />
         {/* GOOGLE ANALYTICS */}
         <Script
