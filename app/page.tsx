@@ -538,7 +538,7 @@ export default function HomePage() {
       {/* Clients */}
       <Section className="pt-0">
         <div className="mb-12 md:mb-16">
-          <h2 className="text-3xl font-extrabold leading-tight text-navy md:text-4xl md:leading-tight text-center">Our Client</h2>
+          <h2 className="text-3xl font-extrabold leading-tight text-navy md:text-4xl md:leading-tight text-center">Our Clients</h2>
         </div>
         <div className="overflow-hidden rounded-3xl bg-card p-4 shadow-[var(--shadow-soft)]">
           <ClientMarquee />
