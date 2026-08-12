@@ -198,29 +198,40 @@ export default function HomePage() {
                 <EyebrowChip>Strategic Intelligence Active</EyebrowChip>
               </div>
              <h1 className="font-extrabold leading-tight text-navy lg:mt-8">
-  {/* First Line */}
-  <span className="flex flex-wrap items-center gap-x-5 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+
+  {/* Main Heading */}
+  <span className="flex flex-wrap items-center gap-x-3 text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
     <span>Leading</span>
     <span>IT</span>
     <span>Services</span>
     <span>Company</span>
   </span>
 
-  {/* Second Line */}
-  <span className="block mt-4 text-2xl font-bold sm:text-3xl md:text-4xl lg:text-5xl">
+  {/* First Paragraph */}
+  <span className="block mt-4 text-1xl font-bold sm:text-2xl md:text-3xl lg:text-4xl">
     Empowering Businesses with
   </span>
 
-  {/* Third Line */}
-  <span className="block mt-4 text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+  {/* Second Paragraph */}
+  <span className="block mt-5 text-xl sm:text-2xl md:text-3xl lg:text-4xl">
     <span className="text-gradient-red">
       Innovative Technology Solutions
     </span>
   </span>
-</h1>
-              <p className="mt-6 max-w-lg text-base font-normal font-sans leading-relaxed text-muted-foreground md:mt-8 md:text-lg md:leading-relaxed">
-                NexovaTechZone is a leading IT Services Company delivering innovative IT Solutions that help businesses accelerate digital transformation. We specialize in software development, IT staffing, AI automation, digital marketing, cloud infrastructure, and cyber security services. Our expert team combines technology, innovation, and industry expertise to provide reliable IT Services and Consulting that drive measurable business growth.
-              </p>
+
+</h1><div className="mt-6 max-w-lg md:mt-8">
+  <p className="text-base font-normal font-sans leading-relaxed text-muted-foreground md:text-lg">
+    NexovaTechZone is a leading IT Services Company delivering innovative IT
+    Solutions that help businesses accelerate digital transformation.
+  </p>
+
+  <p className="mt-4 text-base font-normal font-sans leading-relaxed text-muted-foreground md:text-lg">
+    We specialize in software development, IT staffing, AI automation, digital
+    marketing, cloud infrastructure, and cyber security services. Our expert
+    team combines technology, innovation, and industry expertise to provide
+    reliable IT Services and Consulting that drive measurable business growth.
+  </p>
+</div>
               <div className="mt-8 flex flex-wrap gap-4 md:gap-3">
                 <Link href="/contact" className="btn-motion group inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-red)] hover:-translate-y-1 hover:shadow-[0_20px_60px_-12px_oklch(0.55_0.22_25_/_0.5)]">
                   Book Free Consultation <ArrowRight className="h-4 w-4 transition-all duration-300 group-hover:translate-x-2 group-hover:scale-125" />
