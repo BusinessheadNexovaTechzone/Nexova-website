@@ -5,10 +5,10 @@ import { Layout } from '@/components/layout/Layout';
 import { BlogPostCard } from '@/components/blog/BlogPostCard';
 import { BlogPostModal } from '@/components/blog/BlogPostModal';
 import { BlogPost } from '@/lib/blog-data';
-import { useContentfulBlogs } from '@/hooks/useContentfulBlogs';
+import { useBlogifierBlogs } from '@/hooks/useBlogifierBlogs';
 
 export default function ResourcesComponent() {
-  const { blogs, loading, error } = useContentfulBlogs();
+  const { blogs, loading, error } = useBlogifierBlogs();
   const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [allBlogPosts, setAllBlogPosts] = useState<BlogPost[]>(blogs);
