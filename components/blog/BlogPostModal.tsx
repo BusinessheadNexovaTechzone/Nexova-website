@@ -45,6 +45,8 @@ export function BlogPostModal({ post, isOpen, onClose, onSave }: BlogPostModalPr
     }
   };
 
+  const hasHtmlContent = /<[^>]+>/.test(editedPost?.content ?? '');
+
   if (!post || !editedPost) return null;
 
   return (
@@ -71,7 +73,7 @@ export function BlogPostModal({ post, isOpen, onClose, onSave }: BlogPostModalPr
               <img
                 src={editedPost.featuredImage}
                 alt={editedPost.title}
-                className="h-96 w-full rounded-lg object-cover"
+                className="max-h-[32rem] w-full rounded-lg bg-white object-contain"
               />
             )}
           </div>
@@ -170,6 +172,11 @@ export function BlogPostModal({ post, isOpen, onClose, onSave }: BlogPostModalPr
                 onChange={(e) => handleInputChange('content', e.target.value)}
                 className="min-h-64 text-sm"
                 placeholder="Full blog post content"
+              />
+            ) : hasHtmlContent ? (
+              <div
+                className="prose prose-sm max-w-none text-foreground/80 [&_p]:mb-4 [&_p]:leading-relaxed [&_img]:my-6 [&_img]:mx-auto [&_img]:max-h-[500px] [&_img]:w-auto [&_img]:rounded-lg [&_img]:object-contain [&_figure]:my-6 [&_figure]:text-center [&_blockquote]:border-l-4 [&_blockquote]:border-primary [&_blockquote]:pl-4 [&_blockquote]:italic [&_h1]:text-3xl [&_h2]:text-2xl [&_h3]:text-xl [&_ul]:list-disc [&_ul]:pl-6 [&_ol]:list-decimal [&_ol]:pl-6"
+                dangerouslySetInnerHTML={{ __html: editedPost.content }}
               />
             ) : (
               <div className="prose prose-sm max-w-none space-y-4 text-foreground/80">

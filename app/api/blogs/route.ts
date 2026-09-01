@@ -47,7 +47,8 @@ function parseListing(html: string) {
 
 function parsePost(html: string, listingPost: ReturnType<typeof parseListing>[number]) {
   const contentHtml = firstMatch(html, /class="post-content post-container"[^>]*>([\s\S]*?)<\/section>/i);
-  const content = textFromHtml(contentHtml) || listingPost.excerpt;
+  const cleanedContent = (contentHtml || '').trim();
+  const content = cleanedContent ? decodeHtml(cleanedContent) : listingPost.excerpt;
   const image = firstMatch(html, /class="post-cover-img"[^>]*src=["']([^"']+)["']/i);
 
   return {
@@ -55,9 +56,9 @@ function parsePost(html: string, listingPost: ReturnType<typeof parseListing>[nu
     title: textFromHtml(firstMatch(html, /class="post-title"[^>]*>([\s\S]*?)<\/h1>/i)) || listingPost.title,
     category: 'Blog',
     date: textFromHtml(firstMatch(html, /class="post-meta-date-time"[^>]*>([\s\S]*?)<\/time>/i)) || listingPost.date,
-    excerpt: listingPost.excerpt || content.slice(0, 160),
+    excerpt: listingPost.excerpt || textFromHtml(content).slice(0, 160),
     author: textFromHtml(firstMatch(html, /class="post-meta-author-name"[^>]*>([\s\S]*?)<\/a>/i)) || listingPost.author,
-    readTime: `${Math.max(1, Math.ceil(content.split(/\s+/).filter(Boolean).length / 200))} min read`,
+    readTime: `${Math.max(1, Math.ceil(textFromHtml(content).split(/\s+/).filter(Boolean).length / 200))} min read`,
     content,
     featuredImage: absoluteUrl(image || new URL(listingPost.featuredImage).pathname),
   };
